@@ -1,16 +1,22 @@
 add:
-  datas:
-    - [1,1,2]
-    - [100,400,500]
-    - [1,0,1]
-    - [0.1,0.1,0.2]
-    - [-1,1,0]
-  ids: ['int','bignum','zero','float_num','result0']
+  int:
+    datas:
+      - [1,1,2]
+      - [100,400,500]
+      - [1,0,1]
+      - [-1,1,0]
+    ids: ['int','bignum','zero','result0']
+  float:
+    datas:
+      - [0.1,0.1,0.2]
+      - [0.1,0.2,0.3]
+    ids: ['test1','test2']
 div:
-  datas:
-    - [1,1,1]
-    - [100,400,0.25]
-    - [1,0,-1]
-    - [0.1,0.1,1]
-    - [-1,1,-1]
-  ids: ['int','bignum','zero','float_num','result0']
+  int:
+    datas:
+      - [1,1,1]
+      - [100,400,0.25]
+      - [1,0,-1]
+      - [0.1,0.1,1]
+      - [-1,1,-1]
+    ids: ['int','bignum','zero','float_num','result0']
