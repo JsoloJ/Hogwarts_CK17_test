@@ -1,0 +1,17 @@
+desirecaps:
+  platformName: "android"
+  deviceName: "127.0.0.1:7555"
+  appPackage: "com.tencent.wework"
+  appActivity: ".launch.LaunchSplashActivity"
+  noReset: "true"
+  skipServerInstallation: "true"
+  skipDeviceInitialization: "true"
+
+server:
+  ip: 127.0.0.1
+  port: 4723
+
+name_and_phone:
+  - ["huoge",13322221111]
+  - ["huoge1",13322221112]
+  - ["huoge3",13322221113]
