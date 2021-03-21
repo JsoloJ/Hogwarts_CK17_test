@@ -9,7 +9,7 @@ class TestDemo():
         desired_caps["platformVersion"]="6.0.1"
         desired_caps["deviceName"]="127.0.0.1:7555"
         desired_caps["appPackage"]="com.xueqiu.android"
-        desired_caps["appActivity"]="com.xueqiu.android.common.MainActivity"
+        desired_caps["appActivity"]="com.xueqiu.android.business.MainActivity"
         self.driver=webdriver.Remote("http://localhost:4723/wd/hub",desired_caps)
         self.driver.implicitly_wait(10)
     def test_xueqiu(self):

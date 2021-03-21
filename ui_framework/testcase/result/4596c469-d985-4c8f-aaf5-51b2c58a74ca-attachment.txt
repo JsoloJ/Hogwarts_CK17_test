@@ -1,0 +1,2 @@
+[35mDEBUG   [0m my_log:basepage.py:23 find //*[@resource-id="com.xueqiu.android:id/post_status"]
+[35mDEBUG   [0m my_log:basepage.py:23 find //*[@text="行情"]
