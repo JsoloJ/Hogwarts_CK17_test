@@ -2,11 +2,11 @@ import allure
 import pytest
 from test_api.business.baseapi import BaseApi
 from test_api.util.deal_data import read_data
-from test_api.util.read_file import config_func
+from test_api.util.deal_file import config_read
 from test_api.util.log import logger
 
 
-path = config_func('config','path')
+path = config_read('config','path')
 
 
 
@@ -43,7 +43,7 @@ class TestUser:
 
 
 
-    @pytest.mark.parametrize('data',read_data(path=path,sheetname=config_func('case_sheet','create_sheet')))
+    @pytest.mark.parametrize('data',read_data(path=path,sheetname=config_read('case_sheet','create_sheet')))
     @allure.story('创建用户')
     def test_creatuser(self,data):
         logger.info(f'测试用例名称：{data["case_name"]}---------------------------------------------')
@@ -63,7 +63,7 @@ class TestUser:
             logger.debug(f"返回的实际结果的文本信息：{actual_results}，预期结果：{expected_results}"
                          f"输入的测试数据信息：{test_data}")
         with allure.step("进行断言，这里做了一个异常处理，如果断言出错也不会退出,最后将结果数据和断言结果写入文件"):
-            msg = self.base.assert_func(expected_results, actual_results, path, nrow, sheetname=config_func('case_sheet','create_sheet'))
+            msg = self.base.assert_func(expected_results, actual_results, path, nrow, sheetname=config_read('case_sheet','create_sheet'))
             # try:
             #     assert expected_results in actual_results
             #     #还可以继续断言
@@ -82,7 +82,7 @@ class TestUser:
 
 
 
-    @pytest.mark.parametrize('data', read_data(path=path, sheetname=config_func('case_sheet', 'search_sheet')))
+    @pytest.mark.parametrize('data', read_data(path=path, sheetname=config_read('case_sheet', 'search_sheet')))
     @allure.story('查询用户')
     def test_getmen(self,data):
         #查询成员
@@ -102,7 +102,7 @@ class TestUser:
             logger.debug(f"返回的实际结果的文本信息：{actual_results}，预期结果：{expected_results}"
                          f"输入的测试数据信息：{test_data}")
         with allure.step("进行断言，这里做了一个异常处理，如果断言出错也不会退出"):
-            msg = self.base.assert_func(expected_results, actual_results, path, nrow, sheetname=config_func('case_sheet', 'search_sheet'))
+            msg = self.base.assert_func(expected_results, actual_results, path, nrow, sheetname=config_read('case_sheet', 'search_sheet'))
 
         #     try:
         #         assert expected_results in actual_results
@@ -120,7 +120,7 @@ class TestUser:
     # sheetname = 'data2'
     # data = read_data(path=path, sheetname=sheetname)
     # @pytest.mark.parametrize('data', data)
-    @pytest.mark.parametrize('data', read_data(path=path, sheetname=config_func('case_sheet', 'del_sheet')))
+    @pytest.mark.parametrize('data', read_data(path=path, sheetname=config_read('case_sheet', 'del_sheet')))
     @allure.story('删除用户')
     def test_delmen(self, data):
         """
@@ -140,7 +140,7 @@ class TestUser:
             logger.debug(f"返回的实际结果的文本信息：{actual_results}，预期结果：{expected_results}"
                          f"输入的测试数据信息：{test_data}")
         with allure.step("进行断言，这里做了一个异常处理，如果断言出错也不会退出"):
-            msg = self.base.assert_func(expected_results, actual_results, path, nrow, sheetname=config_func('case_sheet', 'del_sheet'))
+            msg = self.base.assert_func(expected_results, actual_results, path, nrow, sheetname=config_read('case_sheet', 'del_sheet'))
 
         #     try:
         #         assert expected_results in actual_results
@@ -156,7 +156,7 @@ class TestUser:
 
 
 
-    @pytest.mark.parametrize('data', read_data(path=path, sheetname=config_func('case_sheet', 'batchdelete')))
+    @pytest.mark.parametrize('data', read_data(path=path, sheetname=config_read('case_sheet', 'batchdelete')))
     @allure.story('批量删除用户')
     def test_batchdelete(self, data):
         """
@@ -176,12 +176,12 @@ class TestUser:
             logger.debug(f"返回的实际结果的文本信息：{actual_results}，预期结果：{expected_results}"
                          f"输入的测试数据信息：{test_data}")
         with allure.step("进行断言，这里做了一个异常处理，如果断言出错也不会退出"):
-            msg = self.base.assert_func(expected_results, actual_results, path, nrow,sheetname=config_func('case_sheet', 'batchdelete'))
+            msg = self.base.assert_func(expected_results, actual_results, path, nrow,sheetname=config_read('case_sheet', 'batchdelete'))
 
 
 
 
-    @pytest.mark.parametrize('data', read_data(path=path, sheetname=config_func('case_sheet', 'simplelist')))
+    @pytest.mark.parametrize('data', read_data(path=path, sheetname=config_read('case_sheet', 'simplelist')))
     @allure.story('查看部门成员')
     def test_simplelist(self, data):
         """
@@ -202,7 +202,7 @@ class TestUser:
                          f"输入的测试数据信息：{test_data}")
         with allure.step("进行断言，这里做了一个异常处理，如果断言出错也不会退出"):
             msg = self.base.assert_func(expected_results, actual_results, path, nrow,
-                                        sheetname=config_func('case_sheet', 'simplelist'))
+                                        sheetname=config_read('case_sheet', 'simplelist'))
 
 
 

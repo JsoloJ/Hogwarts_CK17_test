@@ -1,0 +1,245 @@
+2021-03-22 20:43:05,228 - test_case - DEBUG - OWMwZTVlYjEtODZhZi00ODQzLWJmOGItODQxYjgyZmUyZTc3
+2021-03-22 20:45:40,365 - test_case - DEBUG - {'SESSION': 'MGJhNzBkM2UtYTE4Ny00YjhhLTk2MzYtZGRjY2ViYjk1MDlm'}
+2021-03-22 20:47:30,838 - test_case - DEBUG - {'SESSION': 'YThmMzI5NzYtMDU3My00ZjVkLTkwMjEtMTY3ZmI4MDU2MzUz'}
+2021-03-22 20:47:30,866 - test_case - DEBUG - {'SESSION': 'MGQzOGU3MzktYTUxOC00YjNiLWE4ZmEtZWUxNTQ2Mjg1NjJm'}
+2021-03-22 20:50:33,226 - test_case - DEBUG - {'SESSION': 'OTkzNGQ3MDktNThmYS00OWYyLTg4NWMtOTRiMDZmYjczNTEz'}
+2021-03-22 20:50:33,259 - test_case - DEBUG - {'SESSION': 'ZDA2MTg2ODEtZGRiOS00OThlLWEwNTItMThiMWUzMjFkODUz'}
+2021-03-22 20:50:48,086 - test_case - DEBUG - {'SESSION': 'YzI2MTRiNTctNmJhYi00MTkyLTliZDgtZDE3Nzg3OTVmMDQx'}
+2021-03-22 20:50:48,111 - test_case - DEBUG - {'SESSION': 'NmNmMmE0MzAtY2Q0Mi00Mzc3LWFkMGUtYWNiMzNkMWUyNTlm'}
+2021-03-22 20:55:39,303 - test_case - DEBUG - 发送请求
+2021-03-22 20:55:50,550 - test_case - DEBUG - 获取token: F6dTuF7C6nG3Ixiv0-g0yDRccy-5Wh4kT0V28e-d_Az4zuigoSgdeZ15iMqj-8bKjnKnOk08oFulzNZZMODtl-aOvpkvp4ONt0zRWbdrHsCMOpR9Fac3hbOIjmGkz3OXxbKU5Po6cm2fvKn9XFbTBNfCHQBLOBigOdhwavmGKxatepP6F-_8ZKS02GyOEyMYpJEcJaKn2D_rCJXmXE-MxA
+2021-03-22 20:56:37,146 - test_case - DEBUG - 发送请求
+2021-03-22 20:56:37,375 - test_case - DEBUG - 获取token: F6dTuF7C6nG3Ixiv0-g0yDRccy-5Wh4kT0V28e-d_Az4zuigoSgdeZ15iMqj-8bKjnKnOk08oFulzNZZMODtl-aOvpkvp4ONt0zRWbdrHsCMOpR9Fac3hbOIjmGkz3OXxbKU5Po6cm2fvKn9XFbTBNfCHQBLOBigOdhwavmGKxatepP6F-_8ZKS02GyOEyMYpJEcJaKn2D_rCJXmXE-MxA
+2021-03-22 20:56:37,375 - test_case - DEBUG - 发送请求
+2021-03-22 20:58:17,791 - test_case - DEBUG - 发送请求
+2021-03-22 20:58:17,999 - test_case - DEBUG - 获取token: F6dTuF7C6nG3Ixiv0-g0yDRccy-5Wh4kT0V28e-d_Az4zuigoSgdeZ15iMqj-8bKjnKnOk08oFulzNZZMODtl-aOvpkvp4ONt0zRWbdrHsCMOpR9Fac3hbOIjmGkz3OXxbKU5Po6cm2fvKn9XFbTBNfCHQBLOBigOdhwavmGKxatepP6F-_8ZKS02GyOEyMYpJEcJaKn2D_rCJXmXE-MxA
+2021-03-22 20:58:17,999 - test_case - DEBUG - 发送请求
+2021-03-22 21:01:26,440 - test_case - DEBUG - 发送请求
+2021-03-22 21:01:37,695 - test_case - DEBUG - 获取token: F6dTuF7C6nG3Ixiv0-g0yDRccy-5Wh4kT0V28e-d_Az4zuigoSgdeZ15iMqj-8bKjnKnOk08oFulzNZZMODtl-aOvpkvp4ONt0zRWbdrHsCMOpR9Fac3hbOIjmGkz3OXxbKU5Po6cm2fvKn9XFbTBNfCHQBLOBigOdhwavmGKxatepP6F-_8ZKS02GyOEyMYpJEcJaKn2D_rCJXmXE-MxA
+2021-03-22 21:01:37,695 - test_case - DEBUG - 发送请求
+2021-03-22 21:03:33,429 - test_case - DEBUG - 发送请求
+2021-03-22 21:04:18,034 - test_case - DEBUG - 发送请求
+2021-03-22 21:04:44,893 - test_case - DEBUG - 发送请求
+2021-03-22 21:05:28,806 - test_case - DEBUG - 发送请求
+2021-03-22 21:06:05,737 - test_case - DEBUG - {'SESSION': 'ODg2ZjFlZDYtYTc0Mi00OTcxLWIwMWItNTVhYmNjZjEyODE1'}
+2021-03-22 21:06:05,774 - test_case - DEBUG - {'SESSION': 'MGIyYTYzYWUtYjBkOS00MTYxLWJkZGMtYzc2YTdiNTczNTli'}
+2021-03-22 21:10:37,382 - test_case - DEBUG - {'SESSION': 'NDBlYTZiNjMtMjhkNS00OTUwLTkzNDAtZDUzZWVlMzM1N2Vi'}
+2021-03-22 21:10:37,414 - test_case - DEBUG - {'SESSION': 'YjdiNDM1NGMtNGJjMC00NWJiLTk3YWItMDQzZjYwZmE4NDYy'}
+2021-03-22 21:11:15,325 - test_case - DEBUG - {'SESSION': 'MGJhNmNhNzQtNjYxNS00ZGVjLWE0ZjYtNDNlMTE4NWI5YjY0'}
+2021-03-22 21:11:15,354 - test_case - DEBUG - {'SESSION': 'NDlkNmQwNGEtMWE3My00ZDcwLWExZTQtMjQ1ZDhiMzllY2Qw'}
+2021-03-22 21:11:24,832 - test_case - DEBUG - {'SESSION': 'Y2VmYjFjNGEtM2E5OS00Y2I5LThkOWItNGRhNjIzZDU1NmRm'}
+2021-03-22 21:11:24,877 - test_case - DEBUG - {'SESSION': 'OGE2MTExZjctNTY0Yy00ZTA4LWEzMWYtOTBkZjMzMjUyZjQ0'}
+2021-03-22 21:12:57,846 - test_case - DEBUG - {'SESSION': 'YWVmNzEyNmMtZjE3ZS00ZTFkLThhZjctYzE1OTcxZTMzNTIz'}
+2021-03-22 21:12:57,869 - test_case - DEBUG - {'SESSION': 'NTdhZTYxZjQtN2M3ZC00OTY1LWJiY2UtYTAyNTA1MDNlNmUz'}
+2021-03-22 21:14:14,832 - test_case - DEBUG - {'SESSION': 'ZTRiZmMzZDMtOWEyNi00OTA5LWJkYjEtZGFkNDJlNjkxYzIy'}
+2021-03-22 21:14:14,872 - test_case - DEBUG - {'SESSION': 'NmYzZWI3MWYtYTc0ZS00ZTgxLTkwODAtZjEzZTk4OWY1MjVm'}
+2021-03-22 21:14:46,730 - test_case - DEBUG - {'SESSION': 'ZDQ0OGQ2ZTgtOWZjNC00MDc4LThiYTAtMjNmNGY2ZDljZDZj'}
+2021-03-22 21:14:46,767 - test_case - DEBUG - {'SESSION': 'NTU4MzE3YTAtZWVjYy00NjRjLTk2NDYtZTAwZDU3OTRjYTM0'}
+2021-03-22 21:15:39,610 - test_case - DEBUG - {'SESSION': 'ODAxMzljMmItMDQ3MS00ZGVmLWE3NTYtODU5N2FhZDUyM2Ji'}
+2021-03-22 21:15:39,654 - test_case - DEBUG - {'SESSION': 'NmMwMDU5NDMtMTAwOS00Njc3LTg3OWEtZTg5NDI5NzY0ZTVh'}
+2021-03-22 21:15:54,006 - test_case - DEBUG - {'SESSION': 'YjdkZmMzMWItZDczNS00ZmVhLWE1YzYtMWYzOTNlYzBlNjc5'}
+2021-03-22 21:15:54,055 - test_case - DEBUG - {'SESSION': 'MjI3NWRkMWUtNDI5ZC00NDQzLTg5MWMtYjRiNjJkYjk1MDcw'}
+2021-03-22 21:16:11,819 - test_case - DEBUG - {'SESSION': 'ZDAxYTE1OTMtNjY3MC00OTViLWFjZWItZmFiMzcxZDgxMjNm'}
+2021-03-22 21:16:11,846 - test_case - DEBUG - {'SESSION': 'YWM2MTI1YzEtMmE4Ni00N2Q3LTkwYzEtOWY1OThiNTA3YWNm'}
+2021-03-22 21:16:21,229 - test_case - DEBUG - {'SESSION': 'Y2JjMDlmNjItY2U3OS00ZmViLTk1NDYtNTEwMDNkNWEzZjhj'}
+2021-03-22 21:16:21,260 - test_case - DEBUG - {'SESSION': 'MmQ5NWI0MTItMWY4NS00MWY4LTg5NWMtNmUwZGVmYmU4YTRk'}
+2021-03-22 21:17:38,720 - test_case - DEBUG - {'SESSION': 'ZWEyZmNkNmYtMTU0YS00ZTdlLWExNTQtYjE3NzFjNjJkN2Rk'}
+2021-03-22 21:17:38,745 - test_case - DEBUG - {'SESSION': 'YTY0YjZiNTYtOGI3NS00ZWFmLTkwZDYtZGU4NTkxOTc3ZTE3'}
+2021-03-22 21:17:48,501 - test_case - DEBUG - {'SESSION': 'NjczMDAwYTQtNDUxMi00YTYwLWFiNzEtOWI2Y2MyMTIzYjk4'}
+2021-03-22 21:17:48,541 - test_case - DEBUG - {'SESSION': 'MTQ5YTNiNmEtNzc2Zi00NzVmLWE2ODAtNWUwODk0NzRmN2I1'}
+2021-03-22 21:23:14,881 - test_case - DEBUG - {'SESSION': 'MTkzZWVhN2YtNGFlOC00YWVlLWJjODMtNGM1OGEyOWI4YzQ1'}
+2021-03-22 21:23:14,907 - test_case - DEBUG - {'SESSION': 'YTYwMDRlMjUtNzY0ZC00NjYzLTk4OWMtMjMxMDI0NWQ2MWY2'}
+2021-03-22 21:24:45,433 - test_case - DEBUG - {'SESSION': 'M2JjMzM1MjktMzZhYi00MjY3LWFkMGMtNGEwODhjMDRmYzVj'}
+2021-03-22 21:24:45,460 - test_case - DEBUG - {'SESSION': 'OTc1YzcxMDMtYTEzNi00YzQ1LThhYzctNGFhNzQwNWQ3MmQz'}
+2021-03-22 21:25:55,564 - test_case - DEBUG - {'SESSION': 'ODQ4Y2Y1MDktODU0Zi00ZTk3LThlZDEtMDIwNjNiODc2ZGVk'}
+2021-03-22 21:26:16,301 - test_case - DEBUG - {'SESSION': 'ZTY1ZDU5YTUtM2RiMy00ZjYxLTgyOGUtNDJjOTdhOTkwMTgx'}
+2021-03-22 21:26:56,020 - test_case - DEBUG - {'SESSION': 'ODdkNGM3ODctM2IwOC00NWVjLTgyMDktNzhmODlkYzA5YWQw'}
+2021-03-22 21:27:34,265 - test_case - DEBUG - {'SESSION': 'MTRjMWU1ZjEtMWM2Mi00ODAxLThlM2QtODU1ODM0NDNhYmFl'}
+2021-03-22 21:29:34,097 - test_case - DEBUG - {'SESSION': 'ODgzZmFkYzYtZDI4Ny00ZTUyLWE1NjgtMWI3NzA3YTU2YmMw'}
+2021-03-22 21:30:05,079 - test_case - DEBUG - {'SESSION': 'MTc5ZTI0NGMtN2UyMC00ZTEwLWEwOTYtMWQwZDVhOTliNzY0'}
+2021-03-22 21:30:05,104 - test_case - DEBUG - {'SESSION': 'MDgyYWM1YWEtZjQzYy00NDVlLWJiZWMtOGYxYTRiMjM1YmVi'}
+2021-03-22 21:30:13,894 - test_case - DEBUG - {'SESSION': 'Zjk2ODc4MjMtYWU4Yi00YWQzLThmNWItYjNjMmY4Y2ZlZGJi'}
+2021-03-22 21:30:13,917 - test_case - DEBUG - {'SESSION': 'NjM1OTM4NDctZDUwNS00ZWNkLTk5ZGMtMWZkNTc5OTljNWNl'}
+2021-03-22 21:31:07,194 - test_case - DEBUG - {'SESSION': 'ZTFkM2Q2MTEtNWFkZS00ODZhLWI0ZTYtNDc0MzZjYjcwZDg2'}
+2021-03-22 21:31:07,237 - test_case - DEBUG - {'SESSION': 'NWQ2NDc2YmMtOGViOS00Yjc4LWI1YzEtNDNlYWE3YTdkMGMy'}
+2021-03-22 21:31:20,889 - test_case - DEBUG - {'SESSION': 'NDVkMDlhMmEtMzZlMy00ZTAyLThkN2UtNTQxMDBlNjRkYTM5'}
+2021-03-22 21:31:20,937 - test_case - DEBUG - {'SESSION': 'MjkyZTIyYzAtZTdkMS00NDZlLTk3NjAtYWNlMTNmZTNmMjY1'}
+2021-03-22 21:32:49,049 - test_case - DEBUG - {'SESSION': 'NTQ0Yjg5NzgtMjJjOC00NGYwLWJkYjMtZmFmOTA2YWRkMjZk'}
+2021-03-22 21:32:49,081 - test_case - DEBUG - {'SESSION': 'YjRhZTA1NzAtOGIwZi00M2FlLWI2Y2EtZWI2MzEwZjFhMzM1'}
+2021-03-22 21:33:35,218 - test_case - DEBUG - {'SESSION': 'ZDczMjNlYzUtYWEyNy00YTI2LWFiODctZjNjZWZjNzMzMWE5'}
+2021-03-22 21:33:35,244 - test_case - DEBUG - {'SESSION': 'NmViYjQzY2MtZjMyYS00NjQ5LTkwNzgtZjAwZjlhM2JlYzRh'}
+2021-03-22 21:33:59,882 - test_case - DEBUG - {'SESSION': 'MjA3NjE5OGEtN2ZhMS00ZDljLTgzNDItZDUyMzY0OGYwNmJm'}
+2021-03-22 21:33:59,911 - test_case - DEBUG - {'SESSION': 'MDEyZDk1NmQtMGZmNS00ZDE1LWIxZTctY2E5MWVjMWYyYzI2'}
+2021-03-22 21:33:59,937 - test_case - DEBUG - {'SESSION': 'ZGRjMjZiZDYtZDlmOC00N2NlLTkzMDUtMDAyOTdhZTgyOGFh'}
+2021-03-22 21:42:31,035 - test_case - DEBUG - {'SESSION': 'NjdmNzkxOWItOTc3YS00MDRlLWEzMTYtYmQxZTFhOTA5ZmE2'}
+2021-03-22 21:42:31,060 - test_case - DEBUG - {'SESSION': 'NjQyMzRiYWYtM2I5MC00ZWE3LWI2YjEtY2VjMzI4OTZlNjQ3'}
+2021-03-22 21:42:31,089 - test_case - DEBUG - {'SESSION': 'MDMyY2I3ODQtNDkyOC00ZjYxLTliMzQtMzUyM2RhMjY3MzI4'}
+2021-03-22 21:44:44,985 - test_case - DEBUG - {'SESSION': 'ZmJhODJhOGEtZGZjMy00ZDNiLThiMjQtM2IzMmYxMDRjYzll'}
+2021-03-22 21:44:45,025 - test_case - DEBUG - {'SESSION': 'ZjM2MDMxZTEtYzZhYi00OGU0LWIyOTUtNzQ5Yjk5MmI2NDFh'}
+2021-03-22 21:45:11,649 - test_case - DEBUG - {'SESSION': 'OGJjOTk2OTctYTRhNC00NTliLWExZmQtZDA3MDMwZTNkNTVl'}
+2021-03-22 21:45:11,679 - test_case - DEBUG - {'SESSION': 'Mjk5Y2I1YzUtM2ZmNC00N2JiLThlMzQtNWIzNmZkYTlhOGU0'}
+2021-03-22 21:52:55,211 - test_case - DEBUG - 
+2021-03-22 21:53:32,278 - test_case - DEBUG - 
+2021-03-22 21:57:31,796 - test_case - DEBUG - 
+2021-03-22 22:03:57,294 - test_case - DEBUG - YmJiZjRlY2UtYmJlMi00NjllLTk4NDQtZDdhNmQwOTZjYmE5
+2021-03-22 22:04:32,959 - test_case - DEBUG - ZmU4NTk3ZWMtNTU1Ni00YWQxLWJkM2UtYmYwMDEwM2YwNTcy
+2021-03-22 22:05:07,809 - test_case - DEBUG - NjQ0MjQwOTMtOTAyNy00OWEwLThhNDItOTkwZDVlMGFlODNh
+2021-03-22 22:16:54,448 - test_case - DEBUG - ZDAwM2Q1YjItYTllYy00MzlhLWFmY2ItYWZkNTYxZWQ4ZTA0
+2021-03-22 22:20:34,634 - test_case - DEBUG - ZWQzMThkYWQtMDI5OS00NDUyLWEyM2UtYTg2ZDRjYmE3MTYx
+2021-03-22 22:22:17,032 - test_case - DEBUG - OTY0MzdmYWQtY2RlYi00MDIwLTk2NDItYjQ2NzJkZGExYjY4
+2021-03-22 22:24:01,741 - test_case - DEBUG - OTgwZWVmYTgtMmI3My00NGVlLTlkZDktNjQyYjU1ZTM3ZTc2
+2021-03-22 22:24:30,176 - test_case - DEBUG - OWJjNTliZDktNTU3NS00ODNmLWE0YjAtNzk3OTUxNjE5NWZl
+2021-03-22 22:25:58,937 - test_case - DEBUG - M2Y1YTg4OTUtMzZhNi00MDM2LWEyYjItOTc3NTMxOWFlZGJm
+2021-03-22 22:29:49,641 - test_case - DEBUG - NTcwNTkzZDAtYWE1ZC00NjQ1LWFhZWQtYzUxNmZhMzgyZWFh
+2021-03-22 22:31:03,994 - test_case - DEBUG - ZDIwMjFkZTItMzE5NC00NzFlLThhZGItODUwZWIzYzdmOWU5
+2021-03-22 22:31:42,591 - test_case - DEBUG - ODBlYjNiMmUtZjk0ZC00MjdkLWI0NmEtMDBmMmE2YzNjZGQy
+2021-03-22 22:35:17,976 - test_case - DEBUG - Y2ZmNWRhYmUtMGJlMy00MGRhLWEzMDktNmFiZDFlYTc3NTZk
+2021-03-22 22:38:59,876 - test_case - DEBUG - YmI1ODNhYzYtYWExOC00YWUwLWEzNTgtZDc5ZmFkMmFjNGYw
+2021-03-22 22:41:12,262 - test_case - DEBUG - MTMwZTdhNzYtOTYwYS00ZWRiLWE1MTktMGU1NGM0ODBiNjc2
+2021-03-22 22:41:32,255 - test_case - DEBUG - YzYwYWE0NjgtYzZhZS00OGY0LWI4YWYtMWRjMDc0MmQ1ZmI4
+2021-03-22 22:56:31,101 - test_case - DEBUG - MTBjNTNhM2QtN2E4My00OTY4LWFmMjktMTExMTEwY2NhMWEw
+2021-03-22 22:56:31,101 - test_case - INFO - 看一下是否请求成功： {'code': 0, 'msg': 'success', 'success': True}
+2021-03-22 22:56:58,386 - test_case - INFO - 看一下是否请求成功： {'code': 0, 'msg': 'success', 'success': True}
+2021-03-22 23:45:48,742 - test_case - INFO - 用户模块测试开始
+2021-03-22 23:45:48,872 - test_case - INFO - 测试用例名称：创建用户测试1---------------------------------------------
+2021-03-22 23:45:48,873 - test_case - INFO - 这里是接口方法，接收参数、处理参数
+2021-03-22 23:45:48,874 - test_case - DEBUG - 数据处理传入的参数{'kwargs': {'kwargs': {'case_name': '创建用户测试1', 'corpsecret': 'OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8', 'method': 'post', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/user/create', 'params': None, 'data': '{"userid":"12224","name":"zhangsan5","department":[1],"mobile":"13255555556","alias":"zhangsan5"}', 'expected_results': 'created', 'actual_results': '{"errcode":0,"errmsg":"created"}', 'running_results\n': '断言成功，这用例没毛病', 'nrow': 2}}}
+2021-03-22 23:45:48,875 - test_case - DEBUG - 查看token生成参数获取OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8
+2021-03-22 23:45:48,875 - test_case - DEBUG - 提取了预期结果、用例对应行号、url和请求方法
+2021-03-22 23:45:48,876 - test_case - DEBUG - 发送请求
+2021-03-22 23:45:49,172 - test_case - DEBUG - 获取token: 4q72lSVMDLNhD9dHfLNKQwXVxbCy5PoiRTSAj_BBoSzW2DnKgZA4LTmR9qzgWpZA7jnrcde8sZ3nI94bF8EjrBE6kl-wejVCS1rqN-JJHzvJKsxRXXC7TEtOctqddrUxokHAaEkHxOzDjt1Z02KGVVoYvTx7GzTFkWF6SHpVvvja25ZhqcCUorGGrgdnphg02tlH5M1vCc_MkVu-tVWbDQ
+2021-03-22 23:45:49,172 - test_case - DEBUG - 这里看下传入的数据是否有问题 {'json': {'case_name': '创建用户测试1', 'corpsecret': 'OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8', 'method': 'post', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/user/create', 'params': None, 'data': '{"userid":"12224","name":"zhangsan5","department":[1],"mobile":"13255555556","alias":"zhangsan5"}', 'expected_results': 'created', 'actual_results': '{"errcode":0,"errmsg":"created"}', 'running_results\n': '断言成功，这用例没毛病', 'nrow': 2}, 'params': {'access_token': '4q72lSVMDLNhD9dHfLNKQwXVxbCy5PoiRTSAj_BBoSzW2DnKgZA4LTmR9qzgWpZA7jnrcde8sZ3nI94bF8EjrBE6kl-wejVCS1rqN-JJHzvJKsxRXXC7TEtOctqddrUxokHAaEkHxOzDjt1Z02KGVVoYvTx7GzTFkWF6SHpVvvja25ZhqcCUorGGrgdnphg02tlH5M1vCc_MkVu-tVWbDQ'}}
+2021-03-22 23:45:49,174 - test_case - DEBUG - 请求方法为post,处理后的数据为{'json': {'userid': '12224', 'name': 'zhangsan5', 'department': [1], 'mobile': '13255555556', 'alias': 'zhangsan5'}, 'params': {'access_token': '4q72lSVMDLNhD9dHfLNKQwXVxbCy5PoiRTSAj_BBoSzW2DnKgZA4LTmR9qzgWpZA7jnrcde8sZ3nI94bF8EjrBE6kl-wejVCS1rqN-JJHzvJKsxRXXC7TEtOctqddrUxokHAaEkHxOzDjt1Z02KGVVoYvTx7GzTFkWF6SHpVvvja25ZhqcCUorGGrgdnphg02tlH5M1vCc_MkVu-tVWbDQ'}}
+2021-03-22 23:45:49,174 - test_case - INFO - 这里是接口方法，发送请求
+2021-03-22 23:45:49,174 - test_case - DEBUG - 发送请求
+2021-03-22 23:45:49,639 - test_case - INFO - 这里是接口方法，返回结果
+2021-03-22 23:45:49,639 - test_case - DEBUG - 返回的实际结果的文本信息：{"errcode":0,"errmsg":"created"}，预期结果：created输入的测试数据信息：{'json': {'userid': '12224', 'name': 'zhangsan5', 'department': [1], 'mobile': '13255555556', 'alias': 'zhangsan5'}, 'params': {'access_token': '4q72lSVMDLNhD9dHfLNKQwXVxbCy5PoiRTSAj_BBoSzW2DnKgZA4LTmR9qzgWpZA7jnrcde8sZ3nI94bF8EjrBE6kl-wejVCS1rqN-JJHzvJKsxRXXC7TEtOctqddrUxokHAaEkHxOzDjt1Z02KGVVoYvTx7GzTFkWF6SHpVvvja25ZhqcCUorGGrgdnphg02tlH5M1vCc_MkVu-tVWbDQ'}}
+2021-03-22 23:45:49,640 - test_case - INFO - 断言期望结果 created 是否在实际结果 {"errcode":0,"errmsg":"created"} 中
+2021-03-22 23:45:49,640 - test_case - INFO - 断言成功，这用例没毛病
+2021-03-22 23:45:49,641 - test_case - INFO - 将断言的结果和返回的信息写入excel
+2021-03-22 23:45:49,694 - test_case - INFO - 测试用例名称：创建用户测试2---------------------------------------------
+2021-03-22 23:45:49,695 - test_case - INFO - 这里是接口方法，接收参数、处理参数
+2021-03-22 23:45:49,695 - test_case - DEBUG - 数据处理传入的参数{'kwargs': {'kwargs': {'case_name': '创建用户测试2', 'corpsecret': 'OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8', 'method': 'post', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/user/create', 'params': None, 'data': '{"userid":"12226","name":"zhangsan6","department":[1],"mobile":"13255555557","alias":"zhangsan6"}', 'expected_results': 'created', 'actual_results': '{"errcode":0,"errmsg":"created"}', 'running_results\n': '断言成功，这用例没毛病', 'nrow': 3}}}
+2021-03-22 23:45:49,695 - test_case - DEBUG - 查看token生成参数获取OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8
+2021-03-22 23:45:49,696 - test_case - DEBUG - 提取了预期结果、用例对应行号、url和请求方法
+2021-03-22 23:45:49,697 - test_case - DEBUG - 发送请求
+2021-03-22 23:45:49,912 - test_case - DEBUG - 获取token: 4q72lSVMDLNhD9dHfLNKQwXVxbCy5PoiRTSAj_BBoSzW2DnKgZA4LTmR9qzgWpZA7jnrcde8sZ3nI94bF8EjrBE6kl-wejVCS1rqN-JJHzvJKsxRXXC7TEtOctqddrUxokHAaEkHxOzDjt1Z02KGVVoYvTx7GzTFkWF6SHpVvvja25ZhqcCUorGGrgdnphg02tlH5M1vCc_MkVu-tVWbDQ
+2021-03-22 23:45:49,912 - test_case - DEBUG - 这里看下传入的数据是否有问题 {'json': {'case_name': '创建用户测试2', 'corpsecret': 'OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8', 'method': 'post', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/user/create', 'params': None, 'data': '{"userid":"12226","name":"zhangsan6","department":[1],"mobile":"13255555557","alias":"zhangsan6"}', 'expected_results': 'created', 'actual_results': '{"errcode":0,"errmsg":"created"}', 'running_results\n': '断言成功，这用例没毛病', 'nrow': 3}, 'params': {'access_token': '4q72lSVMDLNhD9dHfLNKQwXVxbCy5PoiRTSAj_BBoSzW2DnKgZA4LTmR9qzgWpZA7jnrcde8sZ3nI94bF8EjrBE6kl-wejVCS1rqN-JJHzvJKsxRXXC7TEtOctqddrUxokHAaEkHxOzDjt1Z02KGVVoYvTx7GzTFkWF6SHpVvvja25ZhqcCUorGGrgdnphg02tlH5M1vCc_MkVu-tVWbDQ'}}
+2021-03-22 23:45:49,913 - test_case - DEBUG - 请求方法为post,处理后的数据为{'json': {'userid': '12226', 'name': 'zhangsan6', 'department': [1], 'mobile': '13255555557', 'alias': 'zhangsan6'}, 'params': {'access_token': '4q72lSVMDLNhD9dHfLNKQwXVxbCy5PoiRTSAj_BBoSzW2DnKgZA4LTmR9qzgWpZA7jnrcde8sZ3nI94bF8EjrBE6kl-wejVCS1rqN-JJHzvJKsxRXXC7TEtOctqddrUxokHAaEkHxOzDjt1Z02KGVVoYvTx7GzTFkWF6SHpVvvja25ZhqcCUorGGrgdnphg02tlH5M1vCc_MkVu-tVWbDQ'}}
+2021-03-22 23:45:49,913 - test_case - INFO - 这里是接口方法，发送请求
+2021-03-22 23:45:49,913 - test_case - DEBUG - 发送请求
+2021-03-22 23:45:50,365 - test_case - INFO - 这里是接口方法，返回结果
+2021-03-22 23:45:50,366 - test_case - DEBUG - 返回的实际结果的文本信息：{"errcode":0,"errmsg":"created"}，预期结果：created输入的测试数据信息：{'json': {'userid': '12226', 'name': 'zhangsan6', 'department': [1], 'mobile': '13255555557', 'alias': 'zhangsan6'}, 'params': {'access_token': '4q72lSVMDLNhD9dHfLNKQwXVxbCy5PoiRTSAj_BBoSzW2DnKgZA4LTmR9qzgWpZA7jnrcde8sZ3nI94bF8EjrBE6kl-wejVCS1rqN-JJHzvJKsxRXXC7TEtOctqddrUxokHAaEkHxOzDjt1Z02KGVVoYvTx7GzTFkWF6SHpVvvja25ZhqcCUorGGrgdnphg02tlH5M1vCc_MkVu-tVWbDQ'}}
+2021-03-22 23:45:50,367 - test_case - INFO - 断言期望结果 created 是否在实际结果 {"errcode":0,"errmsg":"created"} 中
+2021-03-22 23:45:50,367 - test_case - INFO - 断言成功，这用例没毛病
+2021-03-22 23:45:50,367 - test_case - INFO - 将断言的结果和返回的信息写入excel
+2021-03-22 23:45:50,426 - test_case - INFO - 测试用例名称：查询用户测试1----------------------------------------------
+2021-03-22 23:45:50,426 - test_case - INFO - 这里是接口方法，接收参数、处理参数
+2021-03-22 23:45:50,427 - test_case - DEBUG - 数据处理传入的参数{'kwargs': {'kwargs': {'case_name': '查询用户测试1', 'corpsecret': 'OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8', 'method': 'get', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/user/get', 'params': '{"userid": "12224"}', 'data': None, 'expected_results': 'success', 'actual_results': '{"errcode":0,"errmsg":"ok","userid":"12224","name":"zhangsan5","department":[1],"position":"","mobile":"13255555556","gender":"0","email":"","avatar":"","status":4,"isleader":0,"extattr":{"attrs":[]},"telephone":"","enable":1,"hide_mobile":0,"order":[0],"main_department":1,"qr_code":"https://open.work.weixin.qq.com/wwopen/userQRCode?vcode=vc9bceb11a4da1c3c3","alias":"zhangsan5","is_leader_in_dept":[0],"thumb_avatar":""}', 'running_results\n': '快检查一下  你这断言有毛病啊', 'nrow': 2}}}
+2021-03-22 23:45:50,427 - test_case - DEBUG - 查看token生成参数获取OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8
+2021-03-22 23:45:50,427 - test_case - DEBUG - 提取了预期结果、用例对应行号、url和请求方法
+2021-03-22 23:45:50,428 - test_case - DEBUG - 发送请求
+2021-03-22 23:45:50,651 - test_case - DEBUG - 获取token: 4q72lSVMDLNhD9dHfLNKQwXVxbCy5PoiRTSAj_BBoSzW2DnKgZA4LTmR9qzgWpZA7jnrcde8sZ3nI94bF8EjrBE6kl-wejVCS1rqN-JJHzvJKsxRXXC7TEtOctqddrUxokHAaEkHxOzDjt1Z02KGVVoYvTx7GzTFkWF6SHpVvvja25ZhqcCUorGGrgdnphg02tlH5M1vCc_MkVu-tVWbDQ
+2021-03-22 23:45:50,652 - test_case - DEBUG - 请求方法为get,处理后的数据为{'params': {'access_token': '4q72lSVMDLNhD9dHfLNKQwXVxbCy5PoiRTSAj_BBoSzW2DnKgZA4LTmR9qzgWpZA7jnrcde8sZ3nI94bF8EjrBE6kl-wejVCS1rqN-JJHzvJKsxRXXC7TEtOctqddrUxokHAaEkHxOzDjt1Z02KGVVoYvTx7GzTFkWF6SHpVvvja25ZhqcCUorGGrgdnphg02tlH5M1vCc_MkVu-tVWbDQ', 'userid': '12224'}, 'data': {}}
+2021-03-22 23:45:50,652 - test_case - INFO - 这里是接口方法，发送请求
+2021-03-22 23:45:50,652 - test_case - DEBUG - 发送请求
+2021-03-22 23:45:50,875 - test_case - INFO - 这里是接口方法，返回结果
+2021-03-22 23:45:50,875 - test_case - DEBUG - 返回的实际结果的文本信息：{"errcode":0,"errmsg":"ok","userid":"12224","name":"zhangsan5","department":[1],"position":"","mobile":"13255555556","gender":"0","email":"","avatar":"","status":4,"isleader":0,"extattr":{"attrs":[]},"telephone":"","enable":1,"hide_mobile":0,"order":[0],"main_department":1,"qr_code":"https://open.work.weixin.qq.com/wwopen/userQRCode?vcode=vcf11a7ecfa6018e10","alias":"zhangsan5","is_leader_in_dept":[0],"thumb_avatar":""}，预期结果：success输入的测试数据信息：{'params': {'access_token': '4q72lSVMDLNhD9dHfLNKQwXVxbCy5PoiRTSAj_BBoSzW2DnKgZA4LTmR9qzgWpZA7jnrcde8sZ3nI94bF8EjrBE6kl-wejVCS1rqN-JJHzvJKsxRXXC7TEtOctqddrUxokHAaEkHxOzDjt1Z02KGVVoYvTx7GzTFkWF6SHpVvvja25ZhqcCUorGGrgdnphg02tlH5M1vCc_MkVu-tVWbDQ', 'userid': '12224'}, 'data': {}}
+2021-03-22 23:45:50,876 - test_case - INFO - 断言期望结果 success 是否在实际结果 {"errcode":0,"errmsg":"ok","userid":"12224","name":"zhangsan5","department":[1],"position":"","mobile":"13255555556","gender":"0","email":"","avatar":"","status":4,"isleader":0,"extattr":{"attrs":[]},"telephone":"","enable":1,"hide_mobile":0,"order":[0],"main_department":1,"qr_code":"https://open.work.weixin.qq.com/wwopen/userQRCode?vcode=vcf11a7ecfa6018e10","alias":"zhangsan5","is_leader_in_dept":[0],"thumb_avatar":""} 中
+2021-03-22 23:45:50,877 - test_case - ERROR - 断言有误，错误信息:AssertionError
+2021-03-22 23:45:50,877 - test_case - INFO - 将断言的结果和返回的信息写入excel
+2021-03-22 23:45:50,987 - test_case - INFO - 测试用例名称：查询用户测试2----------------------------------------------
+2021-03-22 23:45:50,988 - test_case - INFO - 这里是接口方法，接收参数、处理参数
+2021-03-22 23:45:50,988 - test_case - DEBUG - 数据处理传入的参数{'kwargs': {'kwargs': {'case_name': '查询用户测试2', 'corpsecret': 'OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8', 'method': 'get', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/user/get', 'params': '{"userid": "12226"}', 'data': None, 'expected_results': 'success', 'actual_results': '{"errcode":0,"errmsg":"ok","userid":"12226","name":"zhangsan6","department":[1],"position":"","mobile":"13255555557","gender":"0","email":"","avatar":"","status":4,"isleader":0,"extattr":{"attrs":[]},"telephone":"","enable":1,"hide_mobile":0,"order":[0],"main_department":1,"qr_code":"https://open.work.weixin.qq.com/wwopen/userQRCode?vcode=vc70745bd4ab86591e","alias":"zhangsan6","is_leader_in_dept":[0],"thumb_avatar":""}', 'running_results\n': '快检查一下  你这断言有毛病啊', 'nrow': 3}}}
+2021-03-22 23:45:50,988 - test_case - DEBUG - 查看token生成参数获取OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8
+2021-03-22 23:45:50,988 - test_case - DEBUG - 提取了预期结果、用例对应行号、url和请求方法
+2021-03-22 23:45:50,989 - test_case - DEBUG - 发送请求
+2021-03-22 23:45:51,208 - test_case - DEBUG - 获取token: 4q72lSVMDLNhD9dHfLNKQwXVxbCy5PoiRTSAj_BBoSzW2DnKgZA4LTmR9qzgWpZA7jnrcde8sZ3nI94bF8EjrBE6kl-wejVCS1rqN-JJHzvJKsxRXXC7TEtOctqddrUxokHAaEkHxOzDjt1Z02KGVVoYvTx7GzTFkWF6SHpVvvja25ZhqcCUorGGrgdnphg02tlH5M1vCc_MkVu-tVWbDQ
+2021-03-22 23:45:51,208 - test_case - DEBUG - 请求方法为get,处理后的数据为{'params': {'access_token': '4q72lSVMDLNhD9dHfLNKQwXVxbCy5PoiRTSAj_BBoSzW2DnKgZA4LTmR9qzgWpZA7jnrcde8sZ3nI94bF8EjrBE6kl-wejVCS1rqN-JJHzvJKsxRXXC7TEtOctqddrUxokHAaEkHxOzDjt1Z02KGVVoYvTx7GzTFkWF6SHpVvvja25ZhqcCUorGGrgdnphg02tlH5M1vCc_MkVu-tVWbDQ', 'userid': '12226'}, 'data': {}}
+2021-03-22 23:45:51,209 - test_case - INFO - 这里是接口方法，发送请求
+2021-03-22 23:45:51,209 - test_case - DEBUG - 发送请求
+2021-03-22 23:45:51,438 - test_case - INFO - 这里是接口方法，返回结果
+2021-03-22 23:45:51,439 - test_case - DEBUG - 返回的实际结果的文本信息：{"errcode":0,"errmsg":"ok","userid":"12226","name":"zhangsan6","department":[1],"position":"","mobile":"13255555557","gender":"0","email":"","avatar":"","status":4,"isleader":0,"extattr":{"attrs":[]},"telephone":"","enable":1,"hide_mobile":0,"order":[0],"main_department":1,"qr_code":"https://open.work.weixin.qq.com/wwopen/userQRCode?vcode=vce4d04712dd525473","alias":"zhangsan6","is_leader_in_dept":[0],"thumb_avatar":""}，预期结果：success输入的测试数据信息：{'params': {'access_token': '4q72lSVMDLNhD9dHfLNKQwXVxbCy5PoiRTSAj_BBoSzW2DnKgZA4LTmR9qzgWpZA7jnrcde8sZ3nI94bF8EjrBE6kl-wejVCS1rqN-JJHzvJKsxRXXC7TEtOctqddrUxokHAaEkHxOzDjt1Z02KGVVoYvTx7GzTFkWF6SHpVvvja25ZhqcCUorGGrgdnphg02tlH5M1vCc_MkVu-tVWbDQ', 'userid': '12226'}, 'data': {}}
+2021-03-22 23:45:51,440 - test_case - INFO - 断言期望结果 success 是否在实际结果 {"errcode":0,"errmsg":"ok","userid":"12226","name":"zhangsan6","department":[1],"position":"","mobile":"13255555557","gender":"0","email":"","avatar":"","status":4,"isleader":0,"extattr":{"attrs":[]},"telephone":"","enable":1,"hide_mobile":0,"order":[0],"main_department":1,"qr_code":"https://open.work.weixin.qq.com/wwopen/userQRCode?vcode=vce4d04712dd525473","alias":"zhangsan6","is_leader_in_dept":[0],"thumb_avatar":""} 中
+2021-03-22 23:45:51,440 - test_case - ERROR - 断言有误，错误信息:AssertionError
+2021-03-22 23:45:51,440 - test_case - INFO - 将断言的结果和返回的信息写入excel
+2021-03-22 23:45:51,505 - test_case - INFO - 测试用例名称：删除用户测试1----------------------------------------------
+2021-03-22 23:45:51,505 - test_case - INFO - 这里是接口方法，接收参数、处理参数
+2021-03-22 23:45:51,506 - test_case - DEBUG - 数据处理传入的参数{'kwargs': {'kwargs': {'case_name': '删除用户测试1', 'corpsecret': 'OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8', 'method': 'get', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/user/delete', 'params': '{"userid":"12224"}', 'data': None, 'expected_results': 'deleted', 'actual_results': '{"errcode":0,"errmsg":"deleted"}', 'running_results\n': '断言成功，这用例没毛病', 'nrow': 2}}}
+2021-03-22 23:45:51,506 - test_case - DEBUG - 查看token生成参数获取OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8
+2021-03-22 23:45:51,506 - test_case - DEBUG - 提取了预期结果、用例对应行号、url和请求方法
+2021-03-22 23:45:51,507 - test_case - DEBUG - 发送请求
+2021-03-22 23:45:51,708 - test_case - DEBUG - 获取token: 4q72lSVMDLNhD9dHfLNKQwXVxbCy5PoiRTSAj_BBoSzW2DnKgZA4LTmR9qzgWpZA7jnrcde8sZ3nI94bF8EjrBE6kl-wejVCS1rqN-JJHzvJKsxRXXC7TEtOctqddrUxokHAaEkHxOzDjt1Z02KGVVoYvTx7GzTFkWF6SHpVvvja25ZhqcCUorGGrgdnphg02tlH5M1vCc_MkVu-tVWbDQ
+2021-03-22 23:45:51,709 - test_case - DEBUG - 请求方法为get,处理后的数据为{'params': {'access_token': '4q72lSVMDLNhD9dHfLNKQwXVxbCy5PoiRTSAj_BBoSzW2DnKgZA4LTmR9qzgWpZA7jnrcde8sZ3nI94bF8EjrBE6kl-wejVCS1rqN-JJHzvJKsxRXXC7TEtOctqddrUxokHAaEkHxOzDjt1Z02KGVVoYvTx7GzTFkWF6SHpVvvja25ZhqcCUorGGrgdnphg02tlH5M1vCc_MkVu-tVWbDQ', 'userid': '12224'}, 'data': {}}
+2021-03-22 23:45:51,709 - test_case - INFO - 这里是接口方法，发送请求
+2021-03-22 23:45:51,709 - test_case - DEBUG - 发送请求
+2021-03-22 23:45:52,030 - test_case - INFO - 这里是接口方法，返回结果
+2021-03-22 23:45:52,031 - test_case - DEBUG - 返回的实际结果的文本信息：{"errcode":0,"errmsg":"deleted"}，预期结果：deleted输入的测试数据信息：{'params': {'access_token': '4q72lSVMDLNhD9dHfLNKQwXVxbCy5PoiRTSAj_BBoSzW2DnKgZA4LTmR9qzgWpZA7jnrcde8sZ3nI94bF8EjrBE6kl-wejVCS1rqN-JJHzvJKsxRXXC7TEtOctqddrUxokHAaEkHxOzDjt1Z02KGVVoYvTx7GzTFkWF6SHpVvvja25ZhqcCUorGGrgdnphg02tlH5M1vCc_MkVu-tVWbDQ', 'userid': '12224'}, 'data': {}}
+2021-03-22 23:45:52,031 - test_case - INFO - 断言期望结果 deleted 是否在实际结果 {"errcode":0,"errmsg":"deleted"} 中
+2021-03-22 23:45:52,032 - test_case - INFO - 断言成功，这用例没毛病
+2021-03-22 23:45:52,032 - test_case - INFO - 将断言的结果和返回的信息写入excel
+2021-03-22 23:45:52,084 - test_case - INFO - 测试用例名称：删除用户测试2----------------------------------------------
+2021-03-22 23:45:52,084 - test_case - INFO - 这里是接口方法，接收参数、处理参数
+2021-03-22 23:45:52,084 - test_case - DEBUG - 数据处理传入的参数{'kwargs': {'kwargs': {'case_name': '删除用户测试2', 'corpsecret': 'OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8', 'method': 'get', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/user/delete', 'params': '{"userid":"12226"}', 'data': None, 'expected_results': 'deleted', 'actual_results': '{"errcode":0,"errmsg":"deleted"}', 'running_results\n': '断言成功，这用例没毛病', 'nrow': 3}}}
+2021-03-22 23:45:52,084 - test_case - DEBUG - 查看token生成参数获取OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8
+2021-03-22 23:45:52,085 - test_case - DEBUG - 提取了预期结果、用例对应行号、url和请求方法
+2021-03-22 23:45:52,086 - test_case - DEBUG - 发送请求
+2021-03-22 23:45:52,340 - test_case - DEBUG - 获取token: 4q72lSVMDLNhD9dHfLNKQwXVxbCy5PoiRTSAj_BBoSzW2DnKgZA4LTmR9qzgWpZA7jnrcde8sZ3nI94bF8EjrBE6kl-wejVCS1rqN-JJHzvJKsxRXXC7TEtOctqddrUxokHAaEkHxOzDjt1Z02KGVVoYvTx7GzTFkWF6SHpVvvja25ZhqcCUorGGrgdnphg02tlH5M1vCc_MkVu-tVWbDQ
+2021-03-22 23:45:52,341 - test_case - DEBUG - 请求方法为get,处理后的数据为{'params': {'access_token': '4q72lSVMDLNhD9dHfLNKQwXVxbCy5PoiRTSAj_BBoSzW2DnKgZA4LTmR9qzgWpZA7jnrcde8sZ3nI94bF8EjrBE6kl-wejVCS1rqN-JJHzvJKsxRXXC7TEtOctqddrUxokHAaEkHxOzDjt1Z02KGVVoYvTx7GzTFkWF6SHpVvvja25ZhqcCUorGGrgdnphg02tlH5M1vCc_MkVu-tVWbDQ', 'userid': '12226'}, 'data': {}}
+2021-03-22 23:45:52,341 - test_case - INFO - 这里是接口方法，发送请求
+2021-03-22 23:45:52,341 - test_case - DEBUG - 发送请求
+2021-03-22 23:45:52,664 - test_case - INFO - 这里是接口方法，返回结果
+2021-03-22 23:45:52,664 - test_case - DEBUG - 返回的实际结果的文本信息：{"errcode":0,"errmsg":"deleted"}，预期结果：deleted输入的测试数据信息：{'params': {'access_token': '4q72lSVMDLNhD9dHfLNKQwXVxbCy5PoiRTSAj_BBoSzW2DnKgZA4LTmR9qzgWpZA7jnrcde8sZ3nI94bF8EjrBE6kl-wejVCS1rqN-JJHzvJKsxRXXC7TEtOctqddrUxokHAaEkHxOzDjt1Z02KGVVoYvTx7GzTFkWF6SHpVvvja25ZhqcCUorGGrgdnphg02tlH5M1vCc_MkVu-tVWbDQ', 'userid': '12226'}, 'data': {}}
+2021-03-22 23:45:52,665 - test_case - INFO - 断言期望结果 deleted 是否在实际结果 {"errcode":0,"errmsg":"deleted"} 中
+2021-03-22 23:45:52,665 - test_case - INFO - 断言成功，这用例没毛病
+2021-03-22 23:45:52,666 - test_case - INFO - 将断言的结果和返回的信息写入excel
+2021-03-22 23:45:52,722 - test_case - INFO - 测试用例名称：批量删除用户测试1----------------------------------------------
+2021-03-22 23:45:52,722 - test_case - INFO - 这里是接口方法，接收参数、处理参数
+2021-03-22 23:45:52,722 - test_case - DEBUG - 数据处理传入的参数{'kwargs': {'kwargs': {'case_name': '批量删除用户测试1', 'corpsecret': 'OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8', 'method': 'post', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/user/batchdelete', 'params': '{"useridlist": ["zhangsan", "lisi"]', 'data': None, 'expected_results': 'deleted', 'actual_results': '{"errcode":40063,"errmsg":"some parameters are empty, hint: [1616324786_197_3eb379feda80da48a535f738fc102b5e], from ip: 117.173.227.29, more info at https://open.work.weixin.qq.com/devtool/query?e=40063"}', 'running_results\n': '快检查一下  你这断言有毛病啊', 'nrow': 2}}}
+2021-03-22 23:45:52,723 - test_case - DEBUG - 查看token生成参数获取OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8
+2021-03-22 23:45:52,723 - test_case - DEBUG - 提取了预期结果、用例对应行号、url和请求方法
+2021-03-22 23:45:52,724 - test_case - DEBUG - 发送请求
+2021-03-22 23:45:52,935 - test_case - DEBUG - 获取token: 4q72lSVMDLNhD9dHfLNKQwXVxbCy5PoiRTSAj_BBoSzW2DnKgZA4LTmR9qzgWpZA7jnrcde8sZ3nI94bF8EjrBE6kl-wejVCS1rqN-JJHzvJKsxRXXC7TEtOctqddrUxokHAaEkHxOzDjt1Z02KGVVoYvTx7GzTFkWF6SHpVvvja25ZhqcCUorGGrgdnphg02tlH5M1vCc_MkVu-tVWbDQ
+2021-03-22 23:45:52,936 - test_case - DEBUG - 这里看下传入的数据是否有问题 {'json': {'case_name': '批量删除用户测试1', 'corpsecret': 'OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8', 'method': 'post', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/user/batchdelete', 'params': '{"useridlist": ["zhangsan", "lisi"]', 'data': None, 'expected_results': 'deleted', 'actual_results': '{"errcode":40063,"errmsg":"some parameters are empty, hint: [1616324786_197_3eb379feda80da48a535f738fc102b5e], from ip: 117.173.227.29, more info at https://open.work.weixin.qq.com/devtool/query?e=40063"}', 'running_results\n': '快检查一下  你这断言有毛病啊', 'nrow': 2}, 'params': {'access_token': '4q72lSVMDLNhD9dHfLNKQwXVxbCy5PoiRTSAj_BBoSzW2DnKgZA4LTmR9qzgWpZA7jnrcde8sZ3nI94bF8EjrBE6kl-wejVCS1rqN-JJHzvJKsxRXXC7TEtOctqddrUxokHAaEkHxOzDjt1Z02KGVVoYvTx7GzTFkWF6SHpVvvja25ZhqcCUorGGrgdnphg02tlH5M1vCc_MkVu-tVWbDQ'}}
+2021-03-22 23:45:52,936 - test_case - ERROR - post请求中没有data数据，请检查测试用例
+2021-03-22 23:45:52,936 - test_case - ERROR - 报错信息： Expecting ',' delimiter: line 1 column 36 (char 35)，你的测试数据格式有问题啊，快检查一下
+2021-03-22 23:45:52,951 - test_case - INFO - 测试用例名称：批量删除用户测试2----------------------------------------------
+2021-03-22 23:45:52,951 - test_case - INFO - 这里是接口方法，接收参数、处理参数
+2021-03-22 23:45:52,952 - test_case - DEBUG - 数据处理传入的参数{'kwargs': {'kwargs': {'case_name': '批量删除用户测试2', 'corpsecret': 'OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8', 'method': 'post', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/user/batchdelete', 'params': '{"useridlist": ["zhangsan", "lisi"]', 'data': '{"useridlist": ["12224", "12226"]', 'expected_results': 'deleted', 'actual_results': '{"errcode":40063,"errmsg":"some parameters are empty, hint: [1616324786_197_1ca331071f6ac83507a3e5816729a837], from ip: 117.173.227.29, more info at https://open.work.weixin.qq.com/devtool/query?e=40063"}', 'running_results\n': '快检查一下  你这断言有毛病啊', 'nrow': 3}}}
+2021-03-22 23:45:52,953 - test_case - DEBUG - 查看token生成参数获取OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8
+2021-03-22 23:45:52,953 - test_case - DEBUG - 提取了预期结果、用例对应行号、url和请求方法
+2021-03-22 23:45:52,954 - test_case - DEBUG - 发送请求
+2021-03-22 23:45:53,157 - test_case - DEBUG - 获取token: 4q72lSVMDLNhD9dHfLNKQwXVxbCy5PoiRTSAj_BBoSzW2DnKgZA4LTmR9qzgWpZA7jnrcde8sZ3nI94bF8EjrBE6kl-wejVCS1rqN-JJHzvJKsxRXXC7TEtOctqddrUxokHAaEkHxOzDjt1Z02KGVVoYvTx7GzTFkWF6SHpVvvja25ZhqcCUorGGrgdnphg02tlH5M1vCc_MkVu-tVWbDQ
+2021-03-22 23:45:53,157 - test_case - DEBUG - 这里看下传入的数据是否有问题 {'json': {'case_name': '批量删除用户测试2', 'corpsecret': 'OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8', 'method': 'post', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/user/batchdelete', 'params': '{"useridlist": ["zhangsan", "lisi"]', 'data': '{"useridlist": ["12224", "12226"]', 'expected_results': 'deleted', 'actual_results': '{"errcode":40063,"errmsg":"some parameters are empty, hint: [1616324786_197_1ca331071f6ac83507a3e5816729a837], from ip: 117.173.227.29, more info at https://open.work.weixin.qq.com/devtool/query?e=40063"}', 'running_results\n': '快检查一下  你这断言有毛病啊', 'nrow': 3}, 'params': {'access_token': '4q72lSVMDLNhD9dHfLNKQwXVxbCy5PoiRTSAj_BBoSzW2DnKgZA4LTmR9qzgWpZA7jnrcde8sZ3nI94bF8EjrBE6kl-wejVCS1rqN-JJHzvJKsxRXXC7TEtOctqddrUxokHAaEkHxOzDjt1Z02KGVVoYvTx7GzTFkWF6SHpVvvja25ZhqcCUorGGrgdnphg02tlH5M1vCc_MkVu-tVWbDQ'}}
+2021-03-22 23:45:53,157 - test_case - ERROR - 报错信息： Expecting ',' delimiter: line 1 column 34 (char 33)，你的测试数据格式有问题啊，快检查一下
+2021-03-22 23:45:53,157 - test_case - ERROR - 报错信息： Expecting ',' delimiter: line 1 column 36 (char 35)，你的测试数据格式有问题啊，快检查一下
+2021-03-22 23:45:53,174 - test_case - INFO - 测试用例名称：批量删除用户测试1----------------------------------------------
+2021-03-22 23:45:53,174 - test_case - INFO - 这里是接口方法，接收参数、处理参数
+2021-03-22 23:45:53,175 - test_case - DEBUG - 数据处理传入的参数{'kwargs': {'kwargs': {'case_name': '批量删除用户测试1', 'corpsecret': 'OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8', 'method': 'get', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/user/simplelist', 'params': '{"department_id":"1","fetch_child":-1}', 'data': None, 'expected_results': '"errmsg":"ok"', 'actual_results': '{"errcode":0,"errmsg":"ok","userlist":[{"userid":"112","name":"1232","department":[1]},{"userid":"12221","name":"zhangsi1","department":[1]},{"userid":"1222","name":"zhangsi","department":[1]},{"userid":"111","name":"1231","department":[1]},{"userid":"789789","name":"jia_zhenhong","department":[1]},{"userid":"4555555555","name":"test8","department":[1]},{"userid":"113","name":"1233","department":[1]},{"userid":"116","name":"1236","department":[1]},{"userid":"huoge410","name":"huoge410","department":[1]},{"userid":"huoge411","name":"huoge411","department":[1]},{"userid":"11","name":"123","department":[1]},{"userid":"12223","name":"zhangsan2","department":[1]},{"userid":"happer0123","name":"今天是星期日","department":[1]},{"userid":"JiaZhenHong","name":"贾镇鸿","department":[1]}]}', 'running_results\n': '断言成功，这用例没毛病', 'nrow': 2}}}
+2021-03-22 23:45:53,175 - test_case - DEBUG - 查看token生成参数获取OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8
+2021-03-22 23:45:53,175 - test_case - DEBUG - 提取了预期结果、用例对应行号、url和请求方法
+2021-03-22 23:45:53,176 - test_case - DEBUG - 发送请求
+2021-03-22 23:45:53,382 - test_case - DEBUG - 获取token: 4q72lSVMDLNhD9dHfLNKQwXVxbCy5PoiRTSAj_BBoSzW2DnKgZA4LTmR9qzgWpZA7jnrcde8sZ3nI94bF8EjrBE6kl-wejVCS1rqN-JJHzvJKsxRXXC7TEtOctqddrUxokHAaEkHxOzDjt1Z02KGVVoYvTx7GzTFkWF6SHpVvvja25ZhqcCUorGGrgdnphg02tlH5M1vCc_MkVu-tVWbDQ
+2021-03-22 23:45:53,383 - test_case - DEBUG - 请求方法为get,处理后的数据为{'params': {'access_token': '4q72lSVMDLNhD9dHfLNKQwXVxbCy5PoiRTSAj_BBoSzW2DnKgZA4LTmR9qzgWpZA7jnrcde8sZ3nI94bF8EjrBE6kl-wejVCS1rqN-JJHzvJKsxRXXC7TEtOctqddrUxokHAaEkHxOzDjt1Z02KGVVoYvTx7GzTFkWF6SHpVvvja25ZhqcCUorGGrgdnphg02tlH5M1vCc_MkVu-tVWbDQ', 'department_id': '1', 'fetch_child': -1}, 'data': {}}
+2021-03-22 23:45:53,383 - test_case - INFO - 这里是接口方法，发送请求
+2021-03-22 23:45:53,383 - test_case - DEBUG - 发送请求
+2021-03-22 23:45:53,594 - test_case - INFO - 这里是接口方法，返回结果
+2021-03-22 23:45:53,595 - test_case - DEBUG - 返回的实际结果的文本信息：{"errcode":0,"errmsg":"ok","userlist":[{"userid":"112","name":"1232","department":[1]},{"userid":"12221","name":"zhangsi1","department":[1]},{"userid":"1222","name":"zhangsi","department":[1]},{"userid":"111","name":"1231","department":[1]},{"userid":"789789","name":"jia_zhenhong","department":[1]},{"userid":"4555555555","name":"test8","department":[1]},{"userid":"113","name":"1233","department":[1]},{"userid":"116","name":"1236","department":[1]},{"userid":"huoge410","name":"huoge410","department":[1]},{"userid":"huoge411","name":"huoge411","department":[1]},{"userid":"11","name":"123","department":[1]},{"userid":"12223","name":"zhangsan2","department":[1]},{"userid":"happer0123","name":"今天是星期日","department":[1]},{"userid":"JiaZhenHong","name":"贾镇鸿","department":[1]}]}，预期结果："errmsg":"ok"输入的测试数据信息：{'params': {'access_token': '4q72lSVMDLNhD9dHfLNKQwXVxbCy5PoiRTSAj_BBoSzW2DnKgZA4LTmR9qzgWpZA7jnrcde8sZ3nI94bF8EjrBE6kl-wejVCS1rqN-JJHzvJKsxRXXC7TEtOctqddrUxokHAaEkHxOzDjt1Z02KGVVoYvTx7GzTFkWF6SHpVvvja25ZhqcCUorGGrgdnphg02tlH5M1vCc_MkVu-tVWbDQ', 'department_id': '1', 'fetch_child': -1}, 'data': {}}
+2021-03-22 23:45:53,596 - test_case - INFO - 断言期望结果 "errmsg":"ok" 是否在实际结果 {"errcode":0,"errmsg":"ok","userlist":[{"userid":"112","name":"1232","department":[1]},{"userid":"12221","name":"zhangsi1","department":[1]},{"userid":"1222","name":"zhangsi","department":[1]},{"userid":"111","name":"1231","department":[1]},{"userid":"789789","name":"jia_zhenhong","department":[1]},{"userid":"4555555555","name":"test8","department":[1]},{"userid":"113","name":"1233","department":[1]},{"userid":"116","name":"1236","department":[1]},{"userid":"huoge410","name":"huoge410","department":[1]},{"userid":"huoge411","name":"huoge411","department":[1]},{"userid":"11","name":"123","department":[1]},{"userid":"12223","name":"zhangsan2","department":[1]},{"userid":"happer0123","name":"今天是星期日","department":[1]},{"userid":"JiaZhenHong","name":"贾镇鸿","department":[1]}]} 中
+2021-03-22 23:45:53,597 - test_case - INFO - 断言成功，这用例没毛病
+2021-03-22 23:45:53,597 - test_case - INFO - 将断言的结果和返回的信息写入excel
+2021-03-22 23:45:53,649 - test_case - INFO - 测试用例名称：批量删除用户测试2----------------------------------------------
+2021-03-22 23:45:53,649 - test_case - INFO - 这里是接口方法，接收参数、处理参数
+2021-03-22 23:45:53,649 - test_case - DEBUG - 数据处理传入的参数{'kwargs': {'kwargs': {'case_name': '批量删除用户测试2', 'corpsecret': 'OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8', 'method': 'get', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/user/simplelist', 'params': '{"department_id":"2","fetch_child":0}', 'data': None, 'expected_results': '"errmsg":"ok"', 'actual_results': '{"errcode":0,"errmsg":"ok","userlist":[]}', 'running_results\n': '断言成功，这用例没毛病', 'nrow': 3}}}
+2021-03-22 23:45:53,649 - test_case - DEBUG - 查看token生成参数获取OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8
+2021-03-22 23:45:53,649 - test_case - DEBUG - 提取了预期结果、用例对应行号、url和请求方法
+2021-03-22 23:45:53,650 - test_case - DEBUG - 发送请求
+2021-03-22 23:45:53,846 - test_case - DEBUG - 获取token: 4q72lSVMDLNhD9dHfLNKQwXVxbCy5PoiRTSAj_BBoSzW2DnKgZA4LTmR9qzgWpZA7jnrcde8sZ3nI94bF8EjrBE6kl-wejVCS1rqN-JJHzvJKsxRXXC7TEtOctqddrUxokHAaEkHxOzDjt1Z02KGVVoYvTx7GzTFkWF6SHpVvvja25ZhqcCUorGGrgdnphg02tlH5M1vCc_MkVu-tVWbDQ
+2021-03-22 23:45:53,847 - test_case - DEBUG - 请求方法为get,处理后的数据为{'params': {'access_token': '4q72lSVMDLNhD9dHfLNKQwXVxbCy5PoiRTSAj_BBoSzW2DnKgZA4LTmR9qzgWpZA7jnrcde8sZ3nI94bF8EjrBE6kl-wejVCS1rqN-JJHzvJKsxRXXC7TEtOctqddrUxokHAaEkHxOzDjt1Z02KGVVoYvTx7GzTFkWF6SHpVvvja25ZhqcCUorGGrgdnphg02tlH5M1vCc_MkVu-tVWbDQ', 'department_id': '2', 'fetch_child': 0}, 'data': {}}
+2021-03-22 23:45:53,847 - test_case - INFO - 这里是接口方法，发送请求
+2021-03-22 23:45:53,847 - test_case - DEBUG - 发送请求
+2021-03-22 23:45:54,050 - test_case - INFO - 这里是接口方法，返回结果
+2021-03-22 23:45:54,051 - test_case - DEBUG - 返回的实际结果的文本信息：{"errcode":0,"errmsg":"ok","userlist":[]}，预期结果："errmsg":"ok"输入的测试数据信息：{'params': {'access_token': '4q72lSVMDLNhD9dHfLNKQwXVxbCy5PoiRTSAj_BBoSzW2DnKgZA4LTmR9qzgWpZA7jnrcde8sZ3nI94bF8EjrBE6kl-wejVCS1rqN-JJHzvJKsxRXXC7TEtOctqddrUxokHAaEkHxOzDjt1Z02KGVVoYvTx7GzTFkWF6SHpVvvja25ZhqcCUorGGrgdnphg02tlH5M1vCc_MkVu-tVWbDQ', 'department_id': '2', 'fetch_child': 0}, 'data': {}}
+2021-03-22 23:45:54,052 - test_case - INFO - 断言期望结果 "errmsg":"ok" 是否在实际结果 {"errcode":0,"errmsg":"ok","userlist":[]} 中
+2021-03-22 23:45:54,053 - test_case - INFO - 断言成功，这用例没毛病
+2021-03-22 23:45:54,053 - test_case - INFO - 将断言的结果和返回的信息写入excel

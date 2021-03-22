@@ -4,7 +4,7 @@
 
 1、从一个简单demo做起，什么都不用考虑，先实现一个接口的请求，调试各种请求方法和参数的格式
 
-2、将每次都需要传入的固定参数放在base_api中，比如像获取token，以及发送请求方法都封装在其中
+2、将每次都需要传入的固定参数放在base_api中，比如像获取token、cookie，以及发送请求方法都封装在其中
 
 3、将每个接口抽离，比如用户处理这一大类的接口都放在一个业务接口页面，如我这里的user_api，其中放入
 这一大类型的所有接口，这个接口中需要做数据的处理的，以及后续可能用到的数据的返回。
@@ -61,4 +61,23 @@ TODO5: 开发sdk，规范接口，输入接口示例数据，自动生成基础�
 ------------------------------基线化------------------------------------
 
 文件内容解释：
+business:业务代码，业务的各种接口方法都放在其中
+config:配置文件，主要存放一些系统变量，放在一起方便管理
+data:测试数据，建议一个接口放一个sheet,一个模块放一个文件
+log:执行测试产生的日志信息
+result_report:执行结果和报告
+testcases:测试用例
+util:工具
+requirements.txt：项目需要的python三方库
+
+
+环境：
+环境搭建：https://jingyan.baidu.com/article/6b97984d7e55c85da3b0bf48.html
+安装python、安装java环境
+下载allure,并配置环境变量，下载地址：https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/
+下载pycharm,然后新建一个项目，设置file--setting--project interpreter，选择python环境
+安装requirements中的python三方库
+设置file--setting -- tools --python integrated Tools 将unittest换成pytest
+然后新建一个以test开都的函数就可以执行了
+注意：pytest的命名规则基本都是以test开头，类名首字母大写
 

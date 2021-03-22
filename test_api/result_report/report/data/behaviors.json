@@ -1,0 +1,159 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "用户模块",
+    "children" : [ {
+      "name" : "创建用户",
+      "children" : [ {
+        "name" : "test_creatuser[data0]",
+        "uid" : "2b577da1817c4c65",
+        "parentUid" : "bddaf37146219650df6d824fcbc45b67",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616427948873,
+          "stop" : 1616427949691,
+          "duration" : 818
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_name': '创建用户测试1', 'corpsecret': 'OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8', 'method': 'post', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/user/create', 'params': None, 'data': '{\"userid\":\"12224\",\"name\":\"zhangsan5\",\"department\":[1],\"mobile\":\"13255555556\",\"alias\":\"zhangsan5\"}', 'expected_results': 'created', 'actual_results': '{\"errcode\":0,\"errmsg\":\"created\"}', 'running_results\\n': '断言成功，这用例没毛病', 'nrow': 2}" ]
+      }, {
+        "name" : "test_creatuser[data1]",
+        "uid" : "3800f2ee0b637135",
+        "parentUid" : "bddaf37146219650df6d824fcbc45b67",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616427949695,
+          "stop" : 1616427950414,
+          "duration" : 719
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_name': '创建用户测试2', 'corpsecret': 'OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8', 'method': 'post', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/user/create', 'params': None, 'data': '{\"userid\":\"12226\",\"name\":\"zhangsan6\",\"department\":[1],\"mobile\":\"13255555557\",\"alias\":\"zhangsan6\"}', 'expected_results': 'created', 'actual_results': '{\"errcode\":0,\"errmsg\":\"created\"}', 'running_results\\n': '断言成功，这用例没毛病', 'nrow': 3}" ]
+      } ],
+      "uid" : "bddaf37146219650df6d824fcbc45b67"
+    }, {
+      "name" : "查询用户",
+      "children" : [ {
+        "name" : "test_getmen[data0]",
+        "uid" : "3dd07ec610729442",
+        "parentUid" : "b18d39856e9927541874493247352092",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616427950426,
+          "stop" : 1616427950927,
+          "duration" : 501
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_name': '查询用户测试1', 'corpsecret': 'OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8', 'method': 'get', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/user/get', 'params': '{\"userid\": \"12224\"}', 'data': None, 'expected_results': 'success', 'actual_results': '{\"errcode\":0,\"errmsg\":\"ok\",\"userid\":\"12224\",\"name\":\"zhangsan5\",\"department\":[1],\"position\":\"\",\"mobile\":\"13255555556\",\"gender\":\"0\",\"email\":\"\",\"avatar\":\"\",\"status\":4,\"isleader\":0,\"extattr\":{\"attrs\":[]},\"telephone\":\"\",\"enable\":1,\"hide_mobile\":0,\"order\":[0],\"main_department\":1,\"qr_code\":\"https://open.work.weixin.qq.com/wwopen/userQRCode?vcode=vc9bceb11a4da1c3c3\",\"alias\":\"zhangsan5\",\"is_leader_in_dept\":[0],\"thumb_avatar\":\"\"}', 'running_results\\n': '快检查一下  你这断言有毛病啊', 'nrow': 2}" ]
+      }, {
+        "name" : "test_getmen[data1]",
+        "uid" : "41be0ae19033538a",
+        "parentUid" : "b18d39856e9927541874493247352092",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616427950988,
+          "stop" : 1616427951493,
+          "duration" : 505
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_name': '查询用户测试2', 'corpsecret': 'OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8', 'method': 'get', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/user/get', 'params': '{\"userid\": \"12226\"}', 'data': None, 'expected_results': 'success', 'actual_results': '{\"errcode\":0,\"errmsg\":\"ok\",\"userid\":\"12226\",\"name\":\"zhangsan6\",\"department\":[1],\"position\":\"\",\"mobile\":\"13255555557\",\"gender\":\"0\",\"email\":\"\",\"avatar\":\"\",\"status\":4,\"isleader\":0,\"extattr\":{\"attrs\":[]},\"telephone\":\"\",\"enable\":1,\"hide_mobile\":0,\"order\":[0],\"main_department\":1,\"qr_code\":\"https://open.work.weixin.qq.com/wwopen/userQRCode?vcode=vc70745bd4ab86591e\",\"alias\":\"zhangsan6\",\"is_leader_in_dept\":[0],\"thumb_avatar\":\"\"}', 'running_results\\n': '快检查一下  你这断言有毛病啊', 'nrow': 3}" ]
+      } ],
+      "uid" : "b18d39856e9927541874493247352092"
+    }, {
+      "name" : "删除用户",
+      "children" : [ {
+        "name" : "test_delmen[data0]",
+        "uid" : "cb3c98cd8e2649aa",
+        "parentUid" : "51b82c5e3e1c31e1fa818d268f65f26d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616427951505,
+          "stop" : 1616427952080,
+          "duration" : 575
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_name': '删除用户测试1', 'corpsecret': 'OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8', 'method': 'get', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/user/delete', 'params': '{\"userid\":\"12224\"}', 'data': None, 'expected_results': 'deleted', 'actual_results': '{\"errcode\":0,\"errmsg\":\"deleted\"}', 'running_results\\n': '断言成功，这用例没毛病', 'nrow': 2}" ]
+      }, {
+        "name" : "test_delmen[data1]",
+        "uid" : "8ae646b9636d9b3d",
+        "parentUid" : "51b82c5e3e1c31e1fa818d268f65f26d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616427952084,
+          "stop" : 1616427952717,
+          "duration" : 633
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_name': '删除用户测试2', 'corpsecret': 'OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8', 'method': 'get', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/user/delete', 'params': '{\"userid\":\"12226\"}', 'data': None, 'expected_results': 'deleted', 'actual_results': '{\"errcode\":0,\"errmsg\":\"deleted\"}', 'running_results\\n': '断言成功，这用例没毛病', 'nrow': 3}" ]
+      } ],
+      "uid" : "51b82c5e3e1c31e1fa818d268f65f26d"
+    }, {
+      "name" : "批量删除用户",
+      "children" : [ {
+        "name" : "test_batchdelete[data0]",
+        "uid" : "3b262bc675e38358",
+        "parentUid" : "3162e3bd32c1cc6bb9838e07eb54fa4e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616427952722,
+          "stop" : 1616427952938,
+          "duration" : 216
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_name': '批量删除用户测试1', 'corpsecret': 'OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8', 'method': 'post', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/user/batchdelete', 'params': '{\"useridlist\": [\"zhangsan\", \"lisi\"]', 'data': None, 'expected_results': 'deleted', 'actual_results': '{\"errcode\":40063,\"errmsg\":\"some parameters are empty, hint: [1616324786_197_3eb379feda80da48a535f738fc102b5e], from ip: 117.173.227.29, more info at https://open.work.weixin.qq.com/devtool/query?e=40063\"}', 'running_results\\n': '快检查一下  你这断言有毛病啊', 'nrow': 2}" ]
+      }, {
+        "name" : "test_batchdelete[data1]",
+        "uid" : "6ec23a1b3a3e1273",
+        "parentUid" : "3162e3bd32c1cc6bb9838e07eb54fa4e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616427952952,
+          "stop" : 1616427953159,
+          "duration" : 207
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_name': '批量删除用户测试2', 'corpsecret': 'OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8', 'method': 'post', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/user/batchdelete', 'params': '{\"useridlist\": [\"zhangsan\", \"lisi\"]', 'data': '{\"useridlist\": [\"12224\", \"12226\"]', 'expected_results': 'deleted', 'actual_results': '{\"errcode\":40063,\"errmsg\":\"some parameters are empty, hint: [1616324786_197_1ca331071f6ac83507a3e5816729a837], from ip: 117.173.227.29, more info at https://open.work.weixin.qq.com/devtool/query?e=40063\"}', 'running_results\\n': '快检查一下  你这断言有毛病啊', 'nrow': 3}" ]
+      } ],
+      "uid" : "3162e3bd32c1cc6bb9838e07eb54fa4e"
+    }, {
+      "name" : "查看部门成员",
+      "children" : [ {
+        "name" : "test_simplelist[data0]",
+        "uid" : "7c29e52225a868ad",
+        "parentUid" : "8af60846c19865dd269312dffb358314",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616427953175,
+          "stop" : 1616427953644,
+          "duration" : 469
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_name': '批量删除用户测试1', 'corpsecret': 'OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8', 'method': 'get', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/user/simplelist', 'params': '{\"department_id\":\"1\",\"fetch_child\":-1}', 'data': None, 'expected_results': '\"errmsg\":\"ok\"', 'actual_results': '{\"errcode\":0,\"errmsg\":\"ok\",\"userlist\":[{\"userid\":\"112\",\"name\":\"1232\",\"department\":[1]},{\"userid\":\"12221\",\"name\":\"zhangsi1\",\"department\":[1]},{\"userid\":\"1222\",\"name\":\"zhangsi\",\"department\":[1]},{\"userid\":\"111\",\"name\":\"1231\",\"department\":[1]},{\"userid\":\"789789\",\"name\":\"jia_zhenhong\",\"department\":[1]},{\"userid\":\"4555555555\",\"name\":\"test8\",\"department\":[1]},{\"userid\":\"113\",\"name\":\"1233\",\"department\":[1]},{\"userid\":\"116\",\"name\":\"1236\",\"department\":[1]},{\"userid\":\"huoge410\",\"name\":\"huoge410\",\"department\":[1]},{\"userid\":\"huoge411\",\"name\":\"huoge411\",\"department\":[1]},{\"userid\":\"11\",\"name\":\"123\",\"department\":[1]},{\"userid\":\"12223\",\"name\":\"zhangsan2\",\"department\":[1]},{\"userid\":\"happer0123\",\"name\":\"今天是星期日\",\"department\":[1]},{\"userid\":\"JiaZhenHong\",\"name\":\"贾镇鸿\",\"department\":[1]}]}', 'running_results\\n': '断言成功，这用例没毛病', 'nrow': 2}" ]
+      }, {
+        "name" : "test_simplelist[data1]",
+        "uid" : "c8e93d0feafb3de6",
+        "parentUid" : "8af60846c19865dd269312dffb358314",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616427953649,
+          "stop" : 1616427954112,
+          "duration" : 463
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_name': '批量删除用户测试2', 'corpsecret': 'OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8', 'method': 'get', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/user/simplelist', 'params': '{\"department_id\":\"2\",\"fetch_child\":0}', 'data': None, 'expected_results': '\"errmsg\":\"ok\"', 'actual_results': '{\"errcode\":0,\"errmsg\":\"ok\",\"userlist\":[]}', 'running_results\\n': '断言成功，这用例没毛病', 'nrow': 3}" ]
+      } ],
+      "uid" : "8af60846c19865dd269312dffb358314"
+    } ],
+    "uid" : "05b3bb5a51bf85f3651d2c2626f5468c"
+  } ]
+}

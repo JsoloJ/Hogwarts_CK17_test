@@ -1,0 +1,163 @@
+{
+  "uid" : "41be0ae19033538a",
+  "name" : "test_getmen[data1]",
+  "fullName" : "test_user.TestUser#test_getmen",
+  "historyId" : "0c67c51894c29b93a8c9184d21396fb8",
+  "time" : {
+    "start" : 1616427950988,
+    "stop" : 1616427951493,
+    "duration" : 505
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError",
+  "statusTrace" : "self = <test_api.testcases.test_user.TestUser object at 0x00000123E13A8848>\ndata = {'actual_results': '{\"errcode\":0,\"errmsg\":\"ok\",\"userid\":\"12226\",\"name\":\"zhangsan6\",\"department\":[1],\"position\":\"\",\"mob...b_avatar\":\"\"}', 'case_name': '查询用户测试2', 'corpsecret': 'OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8', 'data': None, ...}\n\n    @pytest.mark.parametrize('data', read_data(path=path, sheetname=config_read('case_sheet', 'search_sheet')))\n    @allure.story('查询用户')\n    def test_getmen(self,data):\n        #查询成员\n        logger.info(f'测试用例名称：{data[\"case_name\"]}----------------------------------------------')\n        \"\"\"\n        :param data: 这里传入的数据是原始数据没有经过处理的数据，这里用来传入对应得api\n        :return:\n        返回接收的r是响应结果\n        返回接收的expected_results是用例里面的期望结果\n        返回的nrow是用例里面的对应得实际结果的行和执行结果的行，为了方便写入返回数据设置的\n        返回的test_data是发送请求的数据，方便断言使用\n        \"\"\"\n        with allure.step(\"将输入传入对应方法中，返回处理的数据\"):\n            r,expected_results,nrow,test_data = self.base.api_func(kwargs=data)\n        with allure.step(\"获取返回的请求结果的文本信息用作断言\"):\n            actual_results = r.text\n            logger.debug(f\"返回的实际结果的文本信息：{actual_results}，预期结果：{expected_results}\"\n                         f\"输入的测试数据信息：{test_data}\")\n        with allure.step(\"进行断言，这里做了一个异常处理，如果断言出错也不会退出\"):\n>           msg = self.base.assert_func(expected_results, actual_results, path, nrow, sheetname=config_read('case_sheet', 'search_sheet'))\n\ntest_user.py:105: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n..\\business\\baseapi.py:124: in assert_func\n    raise result\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <test_api.business.baseapi.BaseApi object at 0x00000123E261BA08>, expected_results = 'success'\nactual_results = '{\"errcode\":0,\"errmsg\":\"ok\",\"userid\":\"12226\",\"name\":\"zhangsan6\",\"department\":[1],\"position\":\"\",\"mobile\":\"13255555557\",...ixin.qq.com/wwopen/userQRCode?vcode=vce4d04712dd525473\",\"alias\":\"zhangsan6\",\"is_leader_in_dept\":[0],\"thumb_avatar\":\"\"}'\npath = '../data/test.xlsx', nrow = 3, sheetname = 'data1'\n\n    def assert_func(self,expected_results,actual_results,path,nrow,sheetname):\n        logger.info(f\"断言期望结果 {expected_results} 是否在实际结果 {actual_results} 中\")\n        try:\n>           assert expected_results in actual_results\nE           AssertionError\n\n..\\business\\baseapi.py:119: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestUser",
+    "time" : {
+      "start" : 1616427948872,
+      "stop" : 1616427948872,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError",
+    "statusTrace" : "self = <test_api.testcases.test_user.TestUser object at 0x00000123E13A8848>\ndata = {'actual_results': '{\"errcode\":0,\"errmsg\":\"ok\",\"userid\":\"12226\",\"name\":\"zhangsan6\",\"department\":[1],\"position\":\"\",\"mob...b_avatar\":\"\"}', 'case_name': '查询用户测试2', 'corpsecret': 'OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8', 'data': None, ...}\n\n    @pytest.mark.parametrize('data', read_data(path=path, sheetname=config_read('case_sheet', 'search_sheet')))\n    @allure.story('查询用户')\n    def test_getmen(self,data):\n        #查询成员\n        logger.info(f'测试用例名称：{data[\"case_name\"]}----------------------------------------------')\n        \"\"\"\n        :param data: 这里传入的数据是原始数据没有经过处理的数据，这里用来传入对应得api\n        :return:\n        返回接收的r是响应结果\n        返回接收的expected_results是用例里面的期望结果\n        返回的nrow是用例里面的对应得实际结果的行和执行结果的行，为了方便写入返回数据设置的\n        返回的test_data是发送请求的数据，方便断言使用\n        \"\"\"\n        with allure.step(\"将输入传入对应方法中，返回处理的数据\"):\n            r,expected_results,nrow,test_data = self.base.api_func(kwargs=data)\n        with allure.step(\"获取返回的请求结果的文本信息用作断言\"):\n            actual_results = r.text\n            logger.debug(f\"返回的实际结果的文本信息：{actual_results}，预期结果：{expected_results}\"\n                         f\"输入的测试数据信息：{test_data}\")\n        with allure.step(\"进行断言，这里做了一个异常处理，如果断言出错也不会退出\"):\n>           msg = self.base.assert_func(expected_results, actual_results, path, nrow, sheetname=config_read('case_sheet', 'search_sheet'))\n\ntest_user.py:105: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n..\\business\\baseapi.py:124: in assert_func\n    raise result\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <test_api.business.baseapi.BaseApi object at 0x00000123E261BA08>, expected_results = 'success'\nactual_results = '{\"errcode\":0,\"errmsg\":\"ok\",\"userid\":\"12226\",\"name\":\"zhangsan6\",\"department\":[1],\"position\":\"\",\"mobile\":\"13255555557\",...ixin.qq.com/wwopen/userQRCode?vcode=vce4d04712dd525473\",\"alias\":\"zhangsan6\",\"is_leader_in_dept\":[0],\"thumb_avatar\":\"\"}'\npath = '../data/test.xlsx', nrow = 3, sheetname = 'data1'\n\n    def assert_func(self,expected_results,actual_results,path,nrow,sheetname):\n        logger.info(f\"断言期望结果 {expected_results} 是否在实际结果 {actual_results} 中\")\n        try:\n>           assert expected_results in actual_results\nE           AssertionError\n\n..\\business\\baseapi.py:119: AssertionError",
+    "steps" : [ {
+      "name" : "将输入传入对应方法中，返回处理的数据",
+      "time" : {
+        "start" : 1616427950989,
+        "stop" : 1616427951438,
+        "duration" : 449
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "获取返回的请求结果的文本信息用作断言",
+      "time" : {
+        "start" : 1616427951439,
+        "stop" : 1616427951440,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "进行断言，这里做了一个异常处理，如果断言出错也不会退出",
+      "time" : {
+        "start" : 1616427951440,
+        "stop" : 1616427951492,
+        "duration" : 52
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError\n",
+      "statusTrace" : "  File \"D:\\Hogwarts_CK17\\test_api\\testcases\\test_user.py\", line 105, in test_getmen\n    msg = self.base.assert_func(expected_results, actual_results, path, nrow, sheetname=config_read('case_sheet', 'search_sheet'))\n  File \"D:\\Hogwarts_CK17\\test_api\\business\\baseapi.py\", line 124, in assert_func\n    raise result\n  File \"D:\\Hogwarts_CK17\\test_api\\business\\baseapi.py\", line 119, in assert_func\n    assert expected_results in actual_results\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "f9df1c7f3f9d8be5",
+      "name" : "log",
+      "source" : "f9df1c7f3f9d8be5.txt",
+      "type" : "text/plain",
+      "size" : 3751
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestUser::0",
+    "time" : {
+      "start" : 1616427954114,
+      "stop" : 1616427954114,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "查询用户"
+  }, {
+    "name" : "feature",
+    "value" : "用户模块"
+  }, {
+    "name" : "suite",
+    "value" : "test_user"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUser"
+  }, {
+    "name" : "host",
+    "value" : "惠普"
+  }, {
+    "name" : "thread",
+    "value" : "30108-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'case_name': '查询用户测试2', 'corpsecret': 'OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8', 'method': 'get', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/user/get', 'params': '{\"userid\": \"12226\"}', 'data': None, 'expected_results': 'success', 'actual_results': '{\"errcode\":0,\"errmsg\":\"ok\",\"userid\":\"12226\",\"name\":\"zhangsan6\",\"department\":[1],\"position\":\"\",\"mobile\":\"13255555557\",\"gender\":\"0\",\"email\":\"\",\"avatar\":\"\",\"status\":4,\"isleader\":0,\"extattr\":{\"attrs\":[]},\"telephone\":\"\",\"enable\":1,\"hide_mobile\":0,\"order\":[0],\"main_department\":1,\"qr_code\":\"https://open.work.weixin.qq.com/wwopen/userQRCode?vcode=vc70745bd4ab86591e\",\"alias\":\"zhangsan6\",\"is_leader_in_dept\":[0],\"thumb_avatar\":\"\"}', 'running_results\\n': '快检查一下  你这断言有毛病啊', 'nrow': 3}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "41be0ae19033538a.json",
+  "parameterValues" : [ "{'case_name': '查询用户测试2', 'corpsecret': 'OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8', 'method': 'get', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/user/get', 'params': '{\"userid\": \"12226\"}', 'data': None, 'expected_results': 'success', 'actual_results': '{\"errcode\":0,\"errmsg\":\"ok\",\"userid\":\"12226\",\"name\":\"zhangsan6\",\"department\":[1],\"position\":\"\",\"mobile\":\"13255555557\",\"gender\":\"0\",\"email\":\"\",\"avatar\":\"\",\"status\":4,\"isleader\":0,\"extattr\":{\"attrs\":[]},\"telephone\":\"\",\"enable\":1,\"hide_mobile\":0,\"order\":[0],\"main_department\":1,\"qr_code\":\"https://open.work.weixin.qq.com/wwopen/userQRCode?vcode=vc70745bd4ab86591e\",\"alias\":\"zhangsan6\",\"is_leader_in_dept\":[0],\"thumb_avatar\":\"\"}', 'running_results\\n': '快检查一下  你这断言有毛病啊', 'nrow': 3}" ]
+}

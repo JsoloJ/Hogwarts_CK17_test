@@ -1,0 +1,101 @@
+[ {
+  "uid" : "8ae646b9636d9b3d",
+  "name" : "test_delmen[data1]",
+  "time" : {
+    "start" : 1616427952084,
+    "stop" : 1616427952717,
+    "duration" : 633
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ec23a1b3a3e1273",
+  "name" : "test_batchdelete[data1]",
+  "time" : {
+    "start" : 1616427952952,
+    "stop" : 1616427953159,
+    "duration" : 207
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3b262bc675e38358",
+  "name" : "test_batchdelete[data0]",
+  "time" : {
+    "start" : 1616427952722,
+    "stop" : 1616427952938,
+    "duration" : 216
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3800f2ee0b637135",
+  "name" : "test_creatuser[data1]",
+  "time" : {
+    "start" : 1616427949695,
+    "stop" : 1616427950414,
+    "duration" : 719
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b577da1817c4c65",
+  "name" : "test_creatuser[data0]",
+  "time" : {
+    "start" : 1616427948873,
+    "stop" : 1616427949691,
+    "duration" : 818
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c29e52225a868ad",
+  "name" : "test_simplelist[data0]",
+  "time" : {
+    "start" : 1616427953175,
+    "stop" : 1616427953644,
+    "duration" : 469
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c8e93d0feafb3de6",
+  "name" : "test_simplelist[data1]",
+  "time" : {
+    "start" : 1616427953649,
+    "stop" : 1616427954112,
+    "duration" : 463
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cb3c98cd8e2649aa",
+  "name" : "test_delmen[data0]",
+  "time" : {
+    "start" : 1616427951505,
+    "stop" : 1616427952080,
+    "duration" : 575
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "41be0ae19033538a",
+  "name" : "test_getmen[data1]",
+  "time" : {
+    "start" : 1616427950988,
+    "stop" : 1616427951493,
+    "duration" : 505
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3dd07ec610729442",
+  "name" : "test_getmen[data0]",
+  "time" : {
+    "start" : 1616427950426,
+    "stop" : 1616427950927,
+    "duration" : 501
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

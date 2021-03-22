@@ -1,0 +1,73 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError",
+      "children" : [ {
+        "name" : "test_getmen[data0]",
+        "uid" : "3dd07ec610729442",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616427950426,
+          "stop" : 1616427950927,
+          "duration" : 501
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_name': '查询用户测试1', 'corpsecret': 'OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8', 'method': 'get', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/user/get', 'params': '{\"userid\": \"12224\"}', 'data': None, 'expected_results': 'success', 'actual_results': '{\"errcode\":0,\"errmsg\":\"ok\",\"userid\":\"12224\",\"name\":\"zhangsan5\",\"department\":[1],\"position\":\"\",\"mobile\":\"13255555556\",\"gender\":\"0\",\"email\":\"\",\"avatar\":\"\",\"status\":4,\"isleader\":0,\"extattr\":{\"attrs\":[]},\"telephone\":\"\",\"enable\":1,\"hide_mobile\":0,\"order\":[0],\"main_department\":1,\"qr_code\":\"https://open.work.weixin.qq.com/wwopen/userQRCode?vcode=vc9bceb11a4da1c3c3\",\"alias\":\"zhangsan5\",\"is_leader_in_dept\":[0],\"thumb_avatar\":\"\"}', 'running_results\\n': '快检查一下  你这断言有毛病啊', 'nrow': 2}" ]
+      }, {
+        "name" : "test_getmen[data1]",
+        "uid" : "41be0ae19033538a",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616427950988,
+          "stop" : 1616427951493,
+          "duration" : 505
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_name': '查询用户测试2', 'corpsecret': 'OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8', 'method': 'get', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/user/get', 'params': '{\"userid\": \"12226\"}', 'data': None, 'expected_results': 'success', 'actual_results': '{\"errcode\":0,\"errmsg\":\"ok\",\"userid\":\"12226\",\"name\":\"zhangsan6\",\"department\":[1],\"position\":\"\",\"mobile\":\"13255555557\",\"gender\":\"0\",\"email\":\"\",\"avatar\":\"\",\"status\":4,\"isleader\":0,\"extattr\":{\"attrs\":[]},\"telephone\":\"\",\"enable\":1,\"hide_mobile\":0,\"order\":[0],\"main_department\":1,\"qr_code\":\"https://open.work.weixin.qq.com/wwopen/userQRCode?vcode=vc70745bd4ab86591e\",\"alias\":\"zhangsan6\",\"is_leader_in_dept\":[0],\"thumb_avatar\":\"\"}', 'running_results\\n': '快检查一下  你这断言有毛病啊', 'nrow': 3}" ]
+      } ],
+      "uid" : "a0017ad855102fea08b8682d27fec4ca"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "AttributeError: 'str' object has no attribute 'items'",
+      "children" : [ {
+        "name" : "test_batchdelete[data0]",
+        "uid" : "3b262bc675e38358",
+        "parentUid" : "ee051934cdd3d29c09ca191be2d8c2b2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616427952722,
+          "stop" : 1616427952938,
+          "duration" : 216
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_name': '批量删除用户测试1', 'corpsecret': 'OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8', 'method': 'post', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/user/batchdelete', 'params': '{\"useridlist\": [\"zhangsan\", \"lisi\"]', 'data': None, 'expected_results': 'deleted', 'actual_results': '{\"errcode\":40063,\"errmsg\":\"some parameters are empty, hint: [1616324786_197_3eb379feda80da48a535f738fc102b5e], from ip: 117.173.227.29, more info at https://open.work.weixin.qq.com/devtool/query?e=40063\"}', 'running_results\\n': '快检查一下  你这断言有毛病啊', 'nrow': 2}" ]
+      }, {
+        "name" : "test_batchdelete[data1]",
+        "uid" : "6ec23a1b3a3e1273",
+        "parentUid" : "ee051934cdd3d29c09ca191be2d8c2b2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616427952952,
+          "stop" : 1616427953159,
+          "duration" : 207
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_name': '批量删除用户测试2', 'corpsecret': 'OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8', 'method': 'post', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/user/batchdelete', 'params': '{\"useridlist\": [\"zhangsan\", \"lisi\"]', 'data': '{\"useridlist\": [\"12224\", \"12226\"]', 'expected_results': 'deleted', 'actual_results': '{\"errcode\":40063,\"errmsg\":\"some parameters are empty, hint: [1616324786_197_1ca331071f6ac83507a3e5816729a837], from ip: 117.173.227.29, more info at https://open.work.weixin.qq.com/devtool/query?e=40063\"}', 'running_results\\n': '快检查一下  你这断言有毛病啊', 'nrow': 3}" ]
+      } ],
+      "uid" : "ee051934cdd3d29c09ca191be2d8c2b2"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

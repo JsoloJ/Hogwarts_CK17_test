@@ -1,0 +1,153 @@
+{
+  "uid" : "2b577da1817c4c65",
+  "name" : "test_creatuser[data0]",
+  "fullName" : "test_user.TestUser#test_creatuser",
+  "historyId" : "df339b7a87e54f14f63e9322607e1e4f",
+  "time" : {
+    "start" : 1616427948873,
+    "stop" : 1616427949691,
+    "duration" : 818
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestUser",
+    "time" : {
+      "start" : 1616427948872,
+      "stop" : 1616427948872,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "将输入传入对应方法中，返回处理的数据",
+      "time" : {
+        "start" : 1616427948874,
+        "stop" : 1616427949639,
+        "duration" : 765
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "获取返回的请求结果的文本信息用作断言",
+      "time" : {
+        "start" : 1616427949639,
+        "stop" : 1616427949640,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "进行断言，这里做了一个异常处理，如果断言出错也不会退出,最后将结果数据和断言结果写入文件",
+      "time" : {
+        "start" : 1616427949640,
+        "stop" : 1616427949691,
+        "duration" : 51
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "5b9fc99a5850cc00",
+      "name" : "log",
+      "source" : "5b9fc99a5850cc00.txt",
+      "type" : "text/plain",
+      "size" : 3602
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestUser::0",
+    "time" : {
+      "start" : 1616427954114,
+      "stop" : 1616427954114,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "用户模块"
+  }, {
+    "name" : "story",
+    "value" : "创建用户"
+  }, {
+    "name" : "suite",
+    "value" : "test_user"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUser"
+  }, {
+    "name" : "host",
+    "value" : "惠普"
+  }, {
+    "name" : "thread",
+    "value" : "30108-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'case_name': '创建用户测试1', 'corpsecret': 'OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8', 'method': 'post', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/user/create', 'params': None, 'data': '{\"userid\":\"12224\",\"name\":\"zhangsan5\",\"department\":[1],\"mobile\":\"13255555556\",\"alias\":\"zhangsan5\"}', 'expected_results': 'created', 'actual_results': '{\"errcode\":0,\"errmsg\":\"created\"}', 'running_results\\n': '断言成功，这用例没毛病', 'nrow': 2}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2b577da1817c4c65.json",
+  "parameterValues" : [ "{'case_name': '创建用户测试1', 'corpsecret': 'OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8', 'method': 'post', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/user/create', 'params': None, 'data': '{\"userid\":\"12224\",\"name\":\"zhangsan5\",\"department\":[1],\"mobile\":\"13255555556\",\"alias\":\"zhangsan5\"}', 'expected_results': 'created', 'actual_results': '{\"errcode\":0,\"errmsg\":\"created\"}', 'running_results\\n': '断言成功，这用例没毛病', 'nrow': 2}" ]
+}

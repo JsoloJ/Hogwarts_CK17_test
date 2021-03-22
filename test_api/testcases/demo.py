@@ -4,20 +4,23 @@ import pytest
 import requests
 from test_api.business import baseapi
 
+L=baseapi.BaseApi()
+
+
 def test_creatmen():
     #创建成员
     url = "https://qyapi.weixin.qq.com/cgi-bin/user/create"
-    data ={
-        'method':'post',
-        'url': url,
+    access_token='F6dTuF7C6nG3Ixiv0-g0yDRccy-5Wh4kT0V28e-d_Az4zuigoSgdeZ15iMqj-8bKjnKnOk08oFulzNZZMODtl-aOvpkvp4ONt0zRWbdrHsCMOpR9Fac3hbOIjmGkz3OXxbKU5Po6cm2fvKn9XFbTBNfCHQBLOBigOdhwavmGKxatepP6F-_8ZKS02GyOEyMYpJEcJaKn2D_rCJXmXE-MxA'
+    data={
         'json':{
-            'userid': '116',
-            'name': '1236',
+            'userid': '16',
+            'name': '1231',
             'department':[1],
-            'mobile':'13322222226'},
-        'params':{"access_token": baseapi.gettoken()}
+            'mobile':'13322222221'},
+        'params':{"access_token":access_token}
     }
-    r = baseapi.send(data)
+    print(type(data))
+    r = L.send(url=url,method='post',kwargs=data)
     print(r.json())
 
 print('---------------------------------------------------------')

@@ -105,7 +105,7 @@ import requests
 # for key,value in d.items():
 #     print(key,value)
 
-k_d = {'data': None}
+# k_d = {'data': None}
 # print(k_d)
 # print(len(k_d))
 # if len(k_d) > 0:
@@ -113,8 +113,9 @@ k_d = {'data': None}
 #         print(key,value)
 # else:
 #     print("Empty suite")
-print(type(k_d['data']))
-if k_d['data'] is None:
-    print('123')
-#     k_d['data'] = json.loads(k_d['data'])
-params={'{"useridlist": ["zhangsan", "lisi"]'}
+# print(type(k_d['data']))
+# if k_d['data'] is None:
+#     print('123')
+# #     k_d['data'] = json.loads(k_d['data'])
+# params={'{"useridlist": ["zhangsan", "lisi"]'}
+

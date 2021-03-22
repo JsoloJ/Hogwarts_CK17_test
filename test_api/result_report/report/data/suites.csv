@@ -1,0 +1,53 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Mar 22 23:45:48 GMT+08:00 2021","Mon Mar 22 23:45:49 GMT+08:00 2021","818","","test_user","TestUser","","","test_creatuser[data0]",""
+"broken","Mon Mar 22 23:45:52 GMT+08:00 2021","Mon Mar 22 23:45:53 GMT+08:00 2021","207","","test_user","TestUser","","","test_batchdelete[data1]","
+        :param data: 这里传入的数据是原始数据没有经过处理的数据，这里用来传入对应得api
+        :return:
+        返回接收的r是响应结果
+        返回接收的expected_results是用例里面的期望结果
+        返回的nrow是用例里面的对应得实际结果的行和执行结果的行，为了方便写入返回数据设置的
+        返回的test_data是发送请求的数据，方便断言使用
+        "
+"passed","Mon Mar 22 23:45:53 GMT+08:00 2021","Mon Mar 22 23:45:53 GMT+08:00 2021","469","","test_user","TestUser","","","test_simplelist[data0]","
+        :param data: 这里传入的数据是原始数据没有经过处理的数据，这里用来传入对应得api
+        :return:
+        返回接收的r是响应结果
+        返回接收的expected_results是用例里面的期望结果
+        返回的nrow是用例里面的对应得实际结果的行和执行结果的行，为了方便写入返回数据设置的
+        返回的test_data是发送请求的数据，方便断言使用
+        "
+"passed","Mon Mar 22 23:45:53 GMT+08:00 2021","Mon Mar 22 23:45:54 GMT+08:00 2021","463","","test_user","TestUser","","","test_simplelist[data1]","
+        :param data: 这里传入的数据是原始数据没有经过处理的数据，这里用来传入对应得api
+        :return:
+        返回接收的r是响应结果
+        返回接收的expected_results是用例里面的期望结果
+        返回的nrow是用例里面的对应得实际结果的行和执行结果的行，为了方便写入返回数据设置的
+        返回的test_data是发送请求的数据，方便断言使用
+        "
+"passed","Mon Mar 22 23:45:49 GMT+08:00 2021","Mon Mar 22 23:45:50 GMT+08:00 2021","719","","test_user","TestUser","","","test_creatuser[data1]",""
+"passed","Mon Mar 22 23:45:51 GMT+08:00 2021","Mon Mar 22 23:45:52 GMT+08:00 2021","575","","test_user","TestUser","","","test_delmen[data0]","
+        :param data: 这里传入的数据是原始数据没有经过处理的数据，这里用来传入对应得api
+        :return:
+        返回接收的r是响应结果
+        返回接收的expected_results是用例里面的期望结果
+        返回的nrow是用例里面的对应得实际结果的行和执行结果的行，为了方便写入返回数据设置的
+        返回的test_data是发送请求的数据，方便断言使用
+        "
+"broken","Mon Mar 22 23:45:52 GMT+08:00 2021","Mon Mar 22 23:45:52 GMT+08:00 2021","216","","test_user","TestUser","","","test_batchdelete[data0]","
+        :param data: 这里传入的数据是原始数据没有经过处理的数据，这里用来传入对应得api
+        :return:
+        返回接收的r是响应结果
+        返回接收的expected_results是用例里面的期望结果
+        返回的nrow是用例里面的对应得实际结果的行和执行结果的行，为了方便写入返回数据设置的
+        返回的test_data是发送请求的数据，方便断言使用
+        "
+"passed","Mon Mar 22 23:45:52 GMT+08:00 2021","Mon Mar 22 23:45:52 GMT+08:00 2021","633","","test_user","TestUser","","","test_delmen[data1]","
+        :param data: 这里传入的数据是原始数据没有经过处理的数据，这里用来传入对应得api
+        :return:
+        返回接收的r是响应结果
+        返回接收的expected_results是用例里面的期望结果
+        返回的nrow是用例里面的对应得实际结果的行和执行结果的行，为了方便写入返回数据设置的
+        返回的test_data是发送请求的数据，方便断言使用
+        "
+"failed","Mon Mar 22 23:45:50 GMT+08:00 2021","Mon Mar 22 23:45:50 GMT+08:00 2021","501","","test_user","TestUser","","","test_getmen[data0]",""
+"failed","Mon Mar 22 23:45:50 GMT+08:00 2021","Mon Mar 22 23:45:51 GMT+08:00 2021","505","","test_user","TestUser","","","test_getmen[data1]",""

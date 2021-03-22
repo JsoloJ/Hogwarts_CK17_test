@@ -1,0 +1,136 @@
+{
+  "uid" : "6ec23a1b3a3e1273",
+  "name" : "test_batchdelete[data1]",
+  "fullName" : "test_user.TestUser#test_batchdelete",
+  "historyId" : "79455de80d2ac1f5609848f41c11531f",
+  "time" : {
+    "start" : 1616427952952,
+    "stop" : 1616427953159,
+    "duration" : 207
+  },
+  "description" : "\n        :param data: 这里传入的数据是原始数据没有经过处理的数据，这里用来传入对应得api\n        :return:\n        返回接收的r是响应结果\n        返回接收的expected_results是用例里面的期望结果\n        返回的nrow是用例里面的对应得实际结果的行和执行结果的行，为了方便写入返回数据设置的\n        返回的test_data是发送请求的数据，方便断言使用\n        ",
+  "descriptionHtml" : "<pre><code>    :param data: 这里传入的数据是原始数据没有经过处理的数据，这里用来传入对应得api\n    :return:\n    返回接收的r是响应结果\n    返回接收的expected_results是用例里面的期望结果\n    返回的nrow是用例里面的对应得实际结果的行和执行结果的行，为了方便写入返回数据设置的\n    返回的test_data是发送请求的数据，方便断言使用\n</code></pre>\n",
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'str' object has no attribute 'items'",
+  "statusTrace" : "self = <test_api.testcases.test_user.TestUser object at 0x00000123E2751048>\ndata = {'actual_results': '{\"errcode\":40063,\"errmsg\":\"some parameters are empty, hint: [1616324786_197_1ca331071f6ac83507a3e5...除用户测试2', 'corpsecret': 'OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8', 'data': '{\"useridlist\": [\"12224\", \"12226\"]', ...}\n\n    @pytest.mark.parametrize('data', read_data(path=path, sheetname=config_read('case_sheet', 'batchdelete')))\n    @allure.story('批量删除用户')\n    def test_batchdelete(self, data):\n        \"\"\"\n        :param data: 这里传入的数据是原始数据没有经过处理的数据，这里用来传入对应得api\n        :return:\n        返回接收的r是响应结果\n        返回接收的expected_results是用例里面的期望结果\n        返回的nrow是用例里面的对应得实际结果的行和执行结果的行，为了方便写入返回数据设置的\n        返回的test_data是发送请求的数据，方便断言使用\n        \"\"\"\n        logger.info(f'测试用例名称：{data[\"case_name\"]}----------------------------------------------')\n        # 删除成员\n        with allure.step(\"获取返回的请求结果的文本信息用作断言\"):\n>           r, expected_results, nrow, test_data = self.base.api_func(kwargs=data)\n\ntest_user.py:173: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n..\\business\\baseapi.py:109: in api_func\n    data, expected_results, nrow,method,url = self.datafun(kwargs=kwargs)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <test_api.business.baseapi.BaseApi object at 0x00000123E261BA08>\nkwargs = {'kwargs': {'kwargs': {'actual_results': '{\"errcode\":40063,\"errmsg\":\"some parameters are empty, hint: [1616324786_197_...户测试2', 'corpsecret': 'OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8', 'data': '{\"useridlist\": [\"12224\", \"12226\"]', ...}}}\nexpected_results = 'deleted', nrow = 3, method = 'post', url = 'https://qyapi.weixin.qq.com/cgi-bin/user/batchdelete', corpsecret = 'OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8', data1 = {}\n\n    def datafun(self,**kwargs):\n        #为simo准备\n        #cookies=self.getcookie()\n        logger.debug(f\"数据处理传入的参数{kwargs}\")\n        expected_results = kwargs['kwargs']['kwargs']['expected_results']\n        nrow = kwargs['kwargs']['kwargs']['nrow']\n        method = kwargs['kwargs']['kwargs']['method']\n        url = kwargs['kwargs']['kwargs']['url']\n        # corpsecret = \"OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8\"\n        corpsecret = kwargs['kwargs']['kwargs']['corpsecret']\n        logger.debug(f\"查看token生成参数获取{corpsecret}\")\n    \n        logger.debug(f\"提取了预期结果、用例对应行号、url和请求方法\")\n    \n        data1 = {}\n        if method == 'get':\n            params={\"access_token\":self.gettoken(corpsecret)}\n            data={}\n            p_d = kwargs['kwargs']['kwargs']['params']\n            d_d = kwargs['kwargs']['kwargs']['data']\n            if p_d is not None:\n                try:\n                    p_d = json.loads(p_d)\n                except BaseException as err_msg:\n                    logger.error(f\"报错信息： {err_msg}，你的测试数据格式有问题啊，快检查一下\")\n                for key,value in p_d.items():\n                    params[key] = value\n            data1['params'] = params\n            if d_d is not None:\n                logger.error(f\"这是get请求，没有data参数: {d_d}，请检查数据\")\n                try:\n                    d_d = json.loads(d_d)\n                except BaseException as err_msg:\n                    logger.error(f\"报错信息： {err_msg}，你的测试数据格式有问题啊，快检查一下\")\n                for key, value in d_d.items():\n                    data[key] = value\n            data1['data'] = data\n        else:\n            data ={\n                'json': kwargs['kwargs']['kwargs'],\n                'params':{\"access_token\":self.gettoken(corpsecret)}\n            }\n            #将传入的参数转换成字典\n            logger.debug(f'这里看下传入的数据是否有问题 {data}')\n            if not data[\"json\"][\"data\"] is None:\n                try:\n                    data1[\"json\"] = json.loads(data[\"json\"][\"data\"])\n                except BaseException as err_msg:\n                    logger.error(f\"报错信息： {err_msg}，你的测试数据格式有问题啊，快检查一下\")\n            else:\n                logger.error(\"post请求中没有data数据，请检查测试用例\")\n                data1[\"json\"] = None\n            d_p = data[\"json\"][\"params\"]\n            if d_p is not None:\n                try:\n                    d_p = json.loads(d_p)\n                except BaseException as err_msg:\n                    logger.error(f\"报错信息： {err_msg}，你的测试数据格式有问题啊，快检查一下\")\n>               for key,value in d_p.items():\nE               AttributeError: 'str' object has no attribute 'items'\n\n..\\business\\baseapi.py:101: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestUser",
+    "time" : {
+      "start" : 1616427948872,
+      "stop" : 1616427948872,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        :param data: 这里传入的数据是原始数据没有经过处理的数据，这里用来传入对应得api\n        :return:\n        返回接收的r是响应结果\n        返回接收的expected_results是用例里面的期望结果\n        返回的nrow是用例里面的对应得实际结果的行和执行结果的行，为了方便写入返回数据设置的\n        返回的test_data是发送请求的数据，方便断言使用\n        ",
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'str' object has no attribute 'items'",
+    "statusTrace" : "self = <test_api.testcases.test_user.TestUser object at 0x00000123E2751048>\ndata = {'actual_results': '{\"errcode\":40063,\"errmsg\":\"some parameters are empty, hint: [1616324786_197_1ca331071f6ac83507a3e5...除用户测试2', 'corpsecret': 'OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8', 'data': '{\"useridlist\": [\"12224\", \"12226\"]', ...}\n\n    @pytest.mark.parametrize('data', read_data(path=path, sheetname=config_read('case_sheet', 'batchdelete')))\n    @allure.story('批量删除用户')\n    def test_batchdelete(self, data):\n        \"\"\"\n        :param data: 这里传入的数据是原始数据没有经过处理的数据，这里用来传入对应得api\n        :return:\n        返回接收的r是响应结果\n        返回接收的expected_results是用例里面的期望结果\n        返回的nrow是用例里面的对应得实际结果的行和执行结果的行，为了方便写入返回数据设置的\n        返回的test_data是发送请求的数据，方便断言使用\n        \"\"\"\n        logger.info(f'测试用例名称：{data[\"case_name\"]}----------------------------------------------')\n        # 删除成员\n        with allure.step(\"获取返回的请求结果的文本信息用作断言\"):\n>           r, expected_results, nrow, test_data = self.base.api_func(kwargs=data)\n\ntest_user.py:173: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n..\\business\\baseapi.py:109: in api_func\n    data, expected_results, nrow,method,url = self.datafun(kwargs=kwargs)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <test_api.business.baseapi.BaseApi object at 0x00000123E261BA08>\nkwargs = {'kwargs': {'kwargs': {'actual_results': '{\"errcode\":40063,\"errmsg\":\"some parameters are empty, hint: [1616324786_197_...户测试2', 'corpsecret': 'OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8', 'data': '{\"useridlist\": [\"12224\", \"12226\"]', ...}}}\nexpected_results = 'deleted', nrow = 3, method = 'post', url = 'https://qyapi.weixin.qq.com/cgi-bin/user/batchdelete', corpsecret = 'OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8', data1 = {}\n\n    def datafun(self,**kwargs):\n        #为simo准备\n        #cookies=self.getcookie()\n        logger.debug(f\"数据处理传入的参数{kwargs}\")\n        expected_results = kwargs['kwargs']['kwargs']['expected_results']\n        nrow = kwargs['kwargs']['kwargs']['nrow']\n        method = kwargs['kwargs']['kwargs']['method']\n        url = kwargs['kwargs']['kwargs']['url']\n        # corpsecret = \"OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8\"\n        corpsecret = kwargs['kwargs']['kwargs']['corpsecret']\n        logger.debug(f\"查看token生成参数获取{corpsecret}\")\n    \n        logger.debug(f\"提取了预期结果、用例对应行号、url和请求方法\")\n    \n        data1 = {}\n        if method == 'get':\n            params={\"access_token\":self.gettoken(corpsecret)}\n            data={}\n            p_d = kwargs['kwargs']['kwargs']['params']\n            d_d = kwargs['kwargs']['kwargs']['data']\n            if p_d is not None:\n                try:\n                    p_d = json.loads(p_d)\n                except BaseException as err_msg:\n                    logger.error(f\"报错信息： {err_msg}，你的测试数据格式有问题啊，快检查一下\")\n                for key,value in p_d.items():\n                    params[key] = value\n            data1['params'] = params\n            if d_d is not None:\n                logger.error(f\"这是get请求，没有data参数: {d_d}，请检查数据\")\n                try:\n                    d_d = json.loads(d_d)\n                except BaseException as err_msg:\n                    logger.error(f\"报错信息： {err_msg}，你的测试数据格式有问题啊，快检查一下\")\n                for key, value in d_d.items():\n                    data[key] = value\n            data1['data'] = data\n        else:\n            data ={\n                'json': kwargs['kwargs']['kwargs'],\n                'params':{\"access_token\":self.gettoken(corpsecret)}\n            }\n            #将传入的参数转换成字典\n            logger.debug(f'这里看下传入的数据是否有问题 {data}')\n            if not data[\"json\"][\"data\"] is None:\n                try:\n                    data1[\"json\"] = json.loads(data[\"json\"][\"data\"])\n                except BaseException as err_msg:\n                    logger.error(f\"报错信息： {err_msg}，你的测试数据格式有问题啊，快检查一下\")\n            else:\n                logger.error(\"post请求中没有data数据，请检查测试用例\")\n                data1[\"json\"] = None\n            d_p = data[\"json\"][\"params\"]\n            if d_p is not None:\n                try:\n                    d_p = json.loads(d_p)\n                except BaseException as err_msg:\n                    logger.error(f\"报错信息： {err_msg}，你的测试数据格式有问题啊，快检查一下\")\n>               for key,value in d_p.items():\nE               AttributeError: 'str' object has no attribute 'items'\n\n..\\business\\baseapi.py:101: AttributeError",
+    "steps" : [ {
+      "name" : "获取返回的请求结果的文本信息用作断言",
+      "time" : {
+        "start" : 1616427952952,
+        "stop" : 1616427953159,
+        "duration" : 207
+      },
+      "status" : "broken",
+      "statusMessage" : "AttributeError: 'str' object has no attribute 'items'\n",
+      "statusTrace" : "  File \"D:\\Hogwarts_CK17\\test_api\\testcases\\test_user.py\", line 173, in test_batchdelete\n    r, expected_results, nrow, test_data = self.base.api_func(kwargs=data)\n  File \"D:\\Hogwarts_CK17\\test_api\\business\\baseapi.py\", line 109, in api_func\n    data, expected_results, nrow,method,url = self.datafun(kwargs=kwargs)\n  File \"D:\\Hogwarts_CK17\\test_api\\business\\baseapi.py\", line 101, in datafun\n    for key,value in d_p.items():\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "4b850fbfc6ca31cd",
+      "name" : "log",
+      "source" : "4b850fbfc6ca31cd.txt",
+      "type" : "text/plain",
+      "size" : 2781
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestUser::0",
+    "time" : {
+      "start" : 1616427954114,
+      "stop" : 1616427954114,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "用户模块"
+  }, {
+    "name" : "story",
+    "value" : "批量删除用户"
+  }, {
+    "name" : "suite",
+    "value" : "test_user"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUser"
+  }, {
+    "name" : "host",
+    "value" : "惠普"
+  }, {
+    "name" : "thread",
+    "value" : "30108-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'case_name': '批量删除用户测试2', 'corpsecret': 'OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8', 'method': 'post', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/user/batchdelete', 'params': '{\"useridlist\": [\"zhangsan\", \"lisi\"]', 'data': '{\"useridlist\": [\"12224\", \"12226\"]', 'expected_results': 'deleted', 'actual_results': '{\"errcode\":40063,\"errmsg\":\"some parameters are empty, hint: [1616324786_197_1ca331071f6ac83507a3e5816729a837], from ip: 117.173.227.29, more info at https://open.work.weixin.qq.com/devtool/query?e=40063\"}', 'running_results\\n': '快检查一下  你这断言有毛病啊', 'nrow': 3}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6ec23a1b3a3e1273.json",
+  "parameterValues" : [ "{'case_name': '批量删除用户测试2', 'corpsecret': 'OU7KFYJJz4KoIjVH1Df8CHwt50KwGv7fo6uTV3C8oG8', 'method': 'post', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/user/batchdelete', 'params': '{\"useridlist\": [\"zhangsan\", \"lisi\"]', 'data': '{\"useridlist\": [\"12224\", \"12226\"]', 'expected_results': 'deleted', 'actual_results': '{\"errcode\":40063,\"errmsg\":\"some parameters are empty, hint: [1616324786_197_1ca331071f6ac83507a3e5816729a837], from ip: 117.173.227.29, more info at https://open.work.weixin.qq.com/devtool/query?e=40063\"}', 'running_results\\n': '快检查一下  你这断言有毛病啊', 'nrow': 3}" ]
+}

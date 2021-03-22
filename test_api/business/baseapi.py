@@ -1,11 +1,11 @@
 import json
 import requests
 from test_api.util.log import logger
-from test_api.util.read_file import config_func
+from test_api.util.deal_file import config_read,config_write
 from test_api.util.deal_data import write_data
 
 
-corpid = config_func(section="wwork",option="my_corpid")
+corpid = config_read(section="wwork",option="my_corpid")
 
 class BaseApi:
 
@@ -13,7 +13,7 @@ class BaseApi:
         data = {
             "params":{"corpid":corpid,"corpsecret":corpsecret},
             }
-        r = self.send(method=config_func(section="wwork",option="method"),url=config_func(section="wwork",option="url"),kwargs=data)
+        r = self.send(method=config_read(section="wwork",option="method"),url=config_read(section="wwork",option="url"),kwargs=data)
         ACCESS_TOKEN = r.json()['access_token']
         logger.debug(f"获取token: {ACCESS_TOKEN}")
         return ACCESS_TOKEN
@@ -24,7 +24,25 @@ class BaseApi:
         r = requests.request(method,url,**kwargs)
         return r
 
+    #simo相关
+    def getcookie(self):
+
+        data ={"username": config_read("login", "username"),
+            "password": config_read("login", "password")}
+        r = requests.request(method=config_read('login', 'method'), url=config_read('login', 'url'), data=data)
+        cookies = r.cookies.get_dict()
+        # config_write('login','cookies',r.cookies['SESSION'])
+        #
+        # logger.debug(config_read('login','cookies'))
+        logger.info(f"看一下是否请求成功： {r.json()}")
+        return cookies
+
+
+
+
     def datafun(self,**kwargs):
+        #为simo准备
+        #cookies=self.getcookie()
         logger.debug(f"数据处理传入的参数{kwargs}")
         expected_results = kwargs['kwargs']['kwargs']['expected_results']
         nrow = kwargs['kwargs']['kwargs']['nrow']
@@ -116,8 +134,13 @@ class BaseApi:
 
 
 
-if __name__=="__main__":
-    L = BaseApi()
-    print(L.gettoken())
-
-
+# if __name__=="__main__":
+#     L = BaseApi()
+#
+#     # cookies={}
+#     cookies=L.getcookie()
+#     data ={
+#         "pagination": "false"
+#     }
+#     l = requests.request(url="http://222.212.87.87:15899/monitor/ne/search",method='post',cookies=cookies,json=data)
+#     print(l.json())
