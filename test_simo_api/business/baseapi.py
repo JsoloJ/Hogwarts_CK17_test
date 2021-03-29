@@ -25,17 +25,17 @@ class BaseApi:
         return r
 
     #simo相关
-    # def getcookie(self):
-    #
-    #     data ={"username": config_read("login", "username"),
-    #         "password": config_read("login", "password")}
-    #     r = requests.request(method=config_read('login', 'method'), url=config_read('login', 'url'), data=data)
-    #     cookies = r.cookies.get_dict()
-    #     # config_write('login','cookies',r.cookies['SESSION'])
-    #     #
-    #     # logger.debug(config_read('login','cookies'))
-    #     logger.info(f"看一下是否请求成功： {r.json()}")
-    #     return cookies
+    def getcookie(self):
+
+        data ={"username": config_read("login", "username"),
+            "password": config_read("login", "password")}
+        r = requests.request(method=config_read('login', 'method'), url=config_read('login', 'url'), data=data)
+        cookies = r.cookies.get_dict()
+        # config_write('login','cookies',r.cookies['SESSION'])
+        #
+        # logger.debug(config_read('login','cookies'))
+        logger.info(f"看一下是否请求成功： {r.json()}")
+        return cookies
 
 
 
